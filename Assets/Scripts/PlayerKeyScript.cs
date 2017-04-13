@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerKeyScript : MonoBehaviour {
-
 	// Use this for initialization
+	public static bool isPaused = false;
 	void Start () {
 		
 	}
@@ -23,6 +24,15 @@ public class PlayerKeyScript : MonoBehaviour {
 						transform.position = new Vector3 (0, 1, 50);
 					}
 				}
+			}
+		}
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			if (isPaused == false) {
+				isPaused = true;
+				gameObject.GetComponent<FirstPersonController> ().enabled = false;
+			} else {
+				isPaused = false;
+				gameObject.GetComponent<FirstPersonController> ().enabled = true;
 			}
 		}
 	}
