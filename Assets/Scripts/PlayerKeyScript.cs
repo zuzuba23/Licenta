@@ -19,9 +19,10 @@ public class PlayerKeyScript : MonoBehaviour {
 				if (hit.transform.tag == "door") {
 					float distance = Vector3.Distance (transform.position, hit.transform.position);
 					if (distance <= 3) {
+						Debug.Log (hit.transform.GetComponentInChildren<TextMesh> ().text);
 						foreach (GameObject g in GameObject.FindGameObjectsWithTag("door"))
 							Destroy (g);
-						transform.position = new Vector3 (0, 1, 50);
+						GameObject.Find ("DeviceWorldManager").GetComponent<DeviceWorldManagerScript> ().GoToAnotherRoom (hit.transform.GetComponentInChildren<TextMesh> ().text, gameObject);
 					}
 				}
 			}
