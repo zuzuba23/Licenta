@@ -13,7 +13,7 @@ public class WebSocketManagerScript : MonoBehaviour {
 	IEnumerator Start () {
 		ws = new WebSocket (new System.Uri("wss://timf.upg-ploiesti.ro:443/3d/viznet/ws/w/2"));
 		yield return StartCoroutine(ws.Connect ());
-		ws.SendString ("net_worlds 1");
+		ws.SendString ("net_worlds 0");
 		deviceList = JsonReader.Deserialize<JsonObject> (getWebsocketResponse (ws)).getDeviceList ();
 		GameObject.Find ("DeviceWorldManager").GetComponent<DeviceWorldManagerScript> ().SpawnWorlds (deviceList);
 	}
@@ -23,6 +23,7 @@ public class WebSocketManagerScript : MonoBehaviour {
 		do{
 			s = ws.RecvString();
 		} while(s == null);
+		Debug.Log (s);
 		return s;
 	}
 

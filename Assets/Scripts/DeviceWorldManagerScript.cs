@@ -14,10 +14,25 @@ public class DeviceWorldManagerScript : MonoBehaviour {
 	public void SpawnWorlds(List<Device> deviceList){
 		int i = 0;
 		foreach (Device d in deviceList) {
-			Vector3 position = new Vector3 (-10 + i, 1.5f , noOfSpawns * 50 + 15);
+			Debug.Log (d.ShowDetails());
+			Vector3 position;
 			WorldPrefab.GetComponentInChildren<TextMesh> ().text = d.getHostname ();
-			Instantiate (WorldPrefab, position, Quaternion.identity).transform.parent = parent.transform;
-			i += 3;
+			if (i >= 72) {
+				position = new Vector3 (10 - i + 72, 1.5f, noOfSpawns * 50 - 15);
+				Instantiate (WorldPrefab, position, Quaternion.Euler(new Vector3(0,180,0))).transform.parent = parent.transform;
+			}
+			else if (i >= 48) {
+				position = new Vector3 (-15, 1.5f, noOfSpawns * 50 + 10 - i + 48);
+				Instantiate (WorldPrefab, position, Quaternion.Euler(new Vector3(0,-90,0))).transform.parent = parent.transform;
+			}
+			else if (i >= 24) {
+				position = new Vector3 (15, 1.5f, noOfSpawns * 50 + 10 - i + 24);
+				Instantiate (WorldPrefab, position, Quaternion.Euler(new Vector3(0,90,0))).transform.parent = parent.transform;
+			} else {
+				position = new Vector3 (-10 + i, 1.5f, noOfSpawns * 50 + 15);
+				Instantiate (WorldPrefab, position, Quaternion.identity).transform.parent = parent.transform;
+			}
+			i += 4;
 		}
 	}
 
@@ -25,7 +40,7 @@ public class DeviceWorldManagerScript : MonoBehaviour {
 	public void GoToAnotherRoom(string name, GameObject player){
 		noOfSpawns++;
 		Vector3 position = new Vector3 (0, 0, noOfSpawns * 50);
-		//Destroy (parent);    //Distruge camera in care am fost
+		Destroy (parent);    //Distruge camera in care am fost
 		parent = Instantiate (roomPrefab, position, Quaternion.identity);
 		player.transform.position = position;
 

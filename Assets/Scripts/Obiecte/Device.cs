@@ -4,10 +4,11 @@ using System.Collections;
 public class Device {
 	private string id;
 	private string hostname;
-	private string managementIpAddress;
+	private string description;
+	private string group;
+	private string ipAddress;
 	private string macAddress;
 	private string type;
-	private int lineCardCount;
 	private int saved;
 	private double pos_x;
 	private double pos_y;
@@ -56,7 +57,7 @@ public class Device {
 */
 
 	public string ShowDetails(){
-		return "id=" + id + " hostname=" + hostname + " managementIpAddress=" + managementIpAddress + " mac=" + macAddress +" x:" + pos_x + " y:" + pos_y + " z:" + pos_z + "\n";
+		return "id=" + id + " hostname=" + hostname + " managementIpAddress=" + ipAddress + " mac=" + macAddress +" x:" + pos_x + " y:" + pos_y + " z:" + pos_z + "\n";
 	}
 
 	public void setPosX(double p){
