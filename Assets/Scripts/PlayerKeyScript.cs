@@ -22,7 +22,8 @@ public class PlayerKeyScript : MonoBehaviour {
 				if (hit.transform.tag == "door") {
 					float distance = Vector3.Distance (transform.position, hit.transform.position);
 					if (distance <= 3) {
-						GameObject.Find ("DeviceWorldManager").GetComponent<DeviceWorldManagerScript> ().GoToAnotherRoom (hit.transform.GetComponentInChildren<TextMesh> ().text, gameObject);
+						string id = hit.transform.GetChild (1).GetComponent<TextMesh> ().text;
+						GameObject.Find ("DeviceWorldManager").GetComponent<DeviceWorldManagerScript> ().GoToAnotherRoom (id, gameObject);
 					}
 				}
 			}

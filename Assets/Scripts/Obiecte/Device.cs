@@ -87,4 +87,8 @@ public class Device {
 	public string getHostname(){
 		return hostname;
 	}
+
+	public string getId(){
+		return id;
+	}
 }

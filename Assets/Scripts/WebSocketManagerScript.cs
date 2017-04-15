@@ -9,11 +9,14 @@ public class WebSocketManagerScript : MonoBehaviour {
 	public WebSocket ws;
 	public List<Device> deviceList;
 
+	void Start(){
+		StartCoroutine ("GetDevices","net_worlds 0");
+	}
 	// Use this for initialization
-	IEnumerator Start () {
+	public IEnumerator GetDevices (string toSendMessage) {
 		ws = new WebSocket (new System.Uri("wss://timf.upg-ploiesti.ro:443/3d/viznet/ws/w/2"));
 		yield return StartCoroutine(ws.Connect ());
-		ws.SendString ("net_worlds 0");
+		ws.SendString (toSendMessage);
 		deviceList = JsonReader.Deserialize<JsonObject> (getWebsocketResponse (ws)).getDeviceList ();
 		GameObject.Find ("DeviceWorldManager").GetComponent<DeviceWorldManagerScript> ().SpawnWorlds (deviceList);
 	}
