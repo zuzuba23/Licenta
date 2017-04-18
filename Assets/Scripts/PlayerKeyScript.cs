@@ -19,11 +19,11 @@ public class PlayerKeyScript : MonoBehaviour {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			RaycastHit hit;
 			if (Physics.Raycast(ray, out hit)){
-				if (hit.transform.tag == "door") {
+				if (hit.transform.tag == "world") {
 					float distance = Vector3.Distance (transform.position, hit.transform.position);
 					if (distance <= 3) {
 						string id = hit.transform.GetChild (1).GetComponent<TextMesh> ().text;
-						GameObject.Find ("DeviceWorldManager").GetComponent<DeviceWorldManagerScript> ().GoToAnotherRoom (id, gameObject);
+						GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().GoToAnotherRoom (id, gameObject);
 					}
 				}
 			}
@@ -41,7 +41,7 @@ public class PlayerKeyScript : MonoBehaviour {
 		Ray rayb = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hitb;
 		if (Physics.Raycast (rayb, out hitb)) {
-			if (hitb.transform.tag == "door") {
+			if (hitb.transform.tag == "world") {
 				float distance = Vector3.Distance (transform.position, hitb.transform.position);
 				if (distance <= 3) {
 					showMessage = true;

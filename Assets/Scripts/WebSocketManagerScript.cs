@@ -7,20 +7,27 @@ using JsonFx.Json;
 public class WebSocketManagerScript : MonoBehaviour {
 
 	public WebSocket ws;
+	public List<World> worldsList;
 	public List<Device> deviceList;
 
-	void Start(){
-		StartCoroutine ("GetDevices","net_worlds 0");
-	}
-	// Use this for initialization
-	public IEnumerator GetDevices (string toSendMessage) {
+	IEnumerator Start(){
 		ws = new WebSocket (new System.Uri("wss://timf.upg-ploiesti.ro:443/3d/viznet/ws/w/2"));
 		yield return StartCoroutine(ws.Connect ());
-		ws.SendString (toSendMessage);
-		deviceList = JsonReader.Deserialize<JsonObject> (getWebsocketResponse (ws)).getDeviceList ();
-		GameObject.Find ("DeviceWorldManager").GetComponent<DeviceWorldManagerScript> ().SpawnWorlds (deviceList);
+		StartCoroutine ("GetWorlds", "net_worlds 0");
 	}
-
+	// Use this for initialization
+	public IEnumerator GetWorlds (string toSendMessage) {
+		ws.SendString (toSendMessage);
+		worldsList = JsonReader.Deserialize<JsonObjectWorlds> (getWebsocketResponse (ws)).getWorldsList ();
+		GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().SpawnWorlds (worldsList);
+		yield return null;
+	}
+		
+	// Update is called once per frame
+	void Update () {
+		
+	}
+		
 	string getWebsocketResponse(WebSocket ws){
 		string s;
 		do{
@@ -30,8 +37,10 @@ public class WebSocketManagerScript : MonoBehaviour {
 		return s;
 	}
 
-	// Update is called once per frame
-	void Update () {
-		
+	public IEnumerator GetDevices(string toSendMessage){
+		ws.SendString (toSendMessage);
+		deviceList = JsonReader.Deserialize<JsonObjectDevs> (getWebsocketResponse (ws)).getDeviceList ();
+		GameObject.Find ("DeviceSpawnManager").GetComponent<DeviceSpawnManagerScript> ().SpawnDevices (deviceList);
+		yield return null;
 	}
 }
