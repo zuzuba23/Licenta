@@ -22,7 +22,7 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 			float a = count * angle;
 			Vector3 position = GeneratePosition (center, 8f, a);
 			Quaternion rotation = Quaternion.Euler (new Vector3 (0, a, 0));
-			Instantiate(devicePrefab, position, rotation);
+			Instantiate(devicePrefab, position, rotation).transform.parent = parent.transform;
 			count++;
 		}
 	}
