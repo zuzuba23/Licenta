@@ -56,4 +56,9 @@ public class Device
 	public string getId(){
 		return id;
 	}
+
+	public Vector3 getPosition(){
+		Vector3 v = new Vector3 ((float)pos_x, (float)pos_y, (float)pos_z);
+		return v;
+	}
 }

@@ -20,7 +20,7 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 		foreach (Device d in deviceList) {
 			devicePrefab.GetComponentInChildren<TextMesh> ().text = d.getHostname ();
 			float a = count * angle;
-			Vector3 position = GeneratePosition (center, 8f, a);
+			Vector3 position = d.getPosition ();//GeneratePosition (center, 8f, a);
 			Quaternion rotation = Quaternion.Euler (new Vector3 (0, a, 0));
 			Instantiate(devicePrefab, position, rotation).transform.parent = parent.transform;
 			count++;

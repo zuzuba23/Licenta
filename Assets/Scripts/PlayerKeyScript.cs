@@ -8,6 +8,8 @@ public class PlayerKeyScript : MonoBehaviour {
 	// Use this for initialization
 	public static bool isPaused = false;
 	public static bool showMessage = false;
+	public static bool deviceGrabbed = false;
+	GameObject deviceToPlace;
 
 	void Start () {
 		
@@ -47,6 +49,12 @@ public class PlayerKeyScript : MonoBehaviour {
 					showMessage = true;
 				} else
 					showMessage = false;
+			} else if (hitb.transform.tag == "device") {
+				float distance = Vector3.Distance (transform.position, hitb.transform.position);
+				if (distance <= 3 && Input.GetKeyDown (KeyCode.E) && deviceGrabbed == false) {
+					deviceToPlace = hitb.transform.gameObject;
+					deviceGrabbed = true;
+				}
 			} else
 				showMessage = false;
 		}
@@ -54,6 +62,15 @@ public class PlayerKeyScript : MonoBehaviour {
 			GameObject.Find("GUIText").GetComponent<Text>().text = "Click to Enter";
 		} else {
 			GameObject.Find("GUIText").GetComponent<Text>().text = "";
+		}
+
+		if (deviceGrabbed == true) {
+			Vector3 newpos = Camera.main.transform.forward * 3;
+			deviceToPlace.transform.position = transform.position + newpos;
+			if (Input.GetKeyDown (KeyCode.F)) {
+				deviceGrabbed = false;
+				deviceToPlace.transform.tag = "device";
+			}
 		}
 	}
 }
