@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Device
+public class Device		//adaugat lista de interfete pentru fiecare device
 {
 	private string id;
 	private string hostname;

@@ -66,7 +66,10 @@ public class PlayerKeyScript : MonoBehaviour {
 
 		if (deviceGrabbed == true) {
 			Vector3 newpos = Camera.main.transform.forward * 3;
+			
 			deviceToPlace.transform.position = transform.position + newpos;
+			/*Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			deviceToPlace.transform.position = ray.origin + ray.direction * grabDistance;*/
 			if (Input.GetKeyDown (KeyCode.F)) {
 				deviceGrabbed = false;
 				deviceToPlace.transform.tag = "device";

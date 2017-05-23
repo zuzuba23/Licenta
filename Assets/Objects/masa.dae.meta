@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 9ee3ce45ea1149541b902da201d1d2c1
+timeCreated: 1495529297
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ID100
+    100002: ID108
+    100004: ID116
+    100006: ID124
+    100008: ID132
+    100010: ID140
+    100012: ID144
+    100014: ID148
+    100016: ID36
+    100018: ID46
+    100020: ID56
+    100022: ID66
+    100024: ID74
+    100026: ID82
+    100028: ID90
+    100030: instance_0
+    100032: instance_1
+    100034: instance_2
+    100036: instance_3
+    100038: //RootNode
+    100040: skp_camera_Last_Saved_SketchUp_View
+    100042: Tekerlek
+    100044: Tekerlek 1
+    100046: Tekerlek 2
+    100048: Tekerlek 3
+    400000: ID100
+    400002: ID108
+    400004: ID116
+    400006: ID124
+    400008: ID132
+    400010: ID140
+    400012: ID144
+    400014: ID148
+    400016: ID36
+    400018: ID46
+    400020: ID56
+    400022: ID66
+    400024: ID74
+    400026: ID82
+    400028: ID90
+    400030: instance_0
+    400032: instance_1
+    400034: instance_2
+    400036: instance_3
+    400038: //RootNode
+    400040: skp_camera_Last_Saved_SketchUp_View
+    400042: Tekerlek
+    400044: Tekerlek 1
+    400046: Tekerlek 2
+    400048: Tekerlek 3
+    2300000: ID100
+    2300002: ID108
+    2300004: ID116
+    2300006: ID124
+    2300008: ID132
+    2300010: ID36
+    2300012: ID46
+    2300014: ID56
+    2300016: ID66
+    2300018: ID74
+    2300020: ID82
+    2300022: ID90
+    2300024: //RootNode
+    2300026: Tekerlek
+    2300028: Tekerlek 1
+    2300030: Tekerlek 2
+    2300032: Tekerlek 3
+    3300000: ID100
+    3300002: ID108
+    3300004: ID116
+    3300006: ID124
+    3300008: ID132
+    3300010: ID36
+    3300012: ID46
+    3300014: ID56
+    3300016: ID66
+    3300018: ID74
+    3300020: ID82
+    3300022: ID90
+    3300024: //RootNode
+    3300026: Tekerlek
+    3300028: Tekerlek 1
+    3300030: Tekerlek 2
+    3300032: Tekerlek 3
+    4300000: SketchUp
+    4300002: ID36
+    4300004: ID46
+    4300006: ID56
+    4300008: ID66
+    4300010: ID74
+    4300012: ID82
+    4300014: ID90
+    4300016: ID100
+    4300018: ID108
+    4300020: ID116
+    4300022: ID124
+    4300024: ID132
+    4300026: Tekerlek
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
