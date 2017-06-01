@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class DeviceSpawnManagerScript : MonoBehaviour {
 	public GameObject devicePrefab;
 	public GameObject parent;
+	public List<GameObject> devices;
 
 	public void SpawnDevices(List<Device> deviceList){
+		devices = new List<GameObject> ();
 		int count = 0;
 		int numberOfObjects = deviceList.Count;
 		float angle;
@@ -17,14 +19,27 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 			angle = 0;
 		parent = GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().parent;
 		Vector3 center = new Vector3 (0, 0.5f, 0);
+		int i = 1;
 		foreach (Device d in deviceList) {
 			devicePrefab.GetComponentInChildren<TextMesh> ().text = d.getHostname ();
+			Vector3 position;
 			float a = count * angle;
-			Vector3 position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);
+			if (d.getType() != "PC") {
+				position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);position.y += 4;
+			} else {
+				position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);
+			}
 			Quaternion rotation = Quaternion.Euler (new Vector3 (0, a + 180, 0));
-			Instantiate(devicePrefab, position, rotation).transform.parent = parent.transform;
+			GameObject deviceToInstantiate;
+			deviceToInstantiate = Instantiate(devicePrefab, position, rotation);
+			deviceToInstantiate.transform.parent = parent.transform;
+			deviceToInstantiate.GetComponent<DeviceInfo> ().devInfo = d;
+			deviceToInstantiate.GetComponent<DeviceInfo> ().devConn = d.neighbours;
+			devices.Add (deviceToInstantiate);
 			count++;
 		}
+		GetComponent<LinkManager> ().devices = devices;
+		GetComponent<LinkManager> ().GenerareLinii ();
 	}
 
 	private Vector3 GeneratePosition(Vector3 center, float radius,float a)

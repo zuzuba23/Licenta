@@ -28,3 +28,16 @@ public class JsonObjectDevs{
 		return version;
 	}
 }
+
+public class JsonObjectNeighbours{
+	private List<DeviceConnection> response;
+	private string version;
+
+	public List<DeviceConnection> getNeighboursList(){
+		return response;
+	}
+
+	public string getVersion(){
+		return version;
+	}
+}

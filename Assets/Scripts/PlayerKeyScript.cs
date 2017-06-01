@@ -73,6 +73,7 @@ public class PlayerKeyScript : MonoBehaviour {
 			if (Input.GetKeyDown (KeyCode.F)) {
 				deviceGrabbed = false;
 				deviceToPlace.transform.tag = "device";
+				GameObject.Find("DeviceSpawnManager").GetComponent<LinkManager> ().GenerareLinii ();
 			}
 		}
 	}

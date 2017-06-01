@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class Device		//adaugat lista de interfete pentru fiecare device
 {
@@ -20,6 +20,8 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 	private double scl_y;
 	private double scl_z;
 	private string locationName;
+
+	public List<DeviceConnection> neighbours;
 
 	public string ShowDetails(){
 		return "id=" + id + " hostname=" + hostname + " managementIpAddress=" + ipAddress + " mac=" + macAddress +" x:" + pos_x + " y:" + pos_y + " z:" + pos_z + "\n";
@@ -60,5 +62,9 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 	public Vector3 getPosition(){
 		Vector3 v = new Vector3 ((float)pos_x, (float)pos_y, (float)pos_z);
 		return v;
+	}
+
+	public string getType(){
+		return this.type;
 	}
 }

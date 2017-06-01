@@ -14,7 +14,7 @@ public class WorldSpawnManagerScript : MonoBehaviour {
 	public void SpawnWorlds(List<World> worldsList){
 		int i = 0;
 		foreach (World w in worldsList) {
-			Debug.Log (w.ShowDetails());
+			//Debug.Log (w.ShowDetails());
 			Vector3 position;
 			WorldPrefab.transform.GetChild (0).GetComponent<TextMesh> ().text = w.getHostname ();
 			WorldPrefab.transform.GetChild (1).GetComponent<TextMesh> ().text = w.getId ();
