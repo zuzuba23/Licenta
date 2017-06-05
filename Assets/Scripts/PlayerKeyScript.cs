@@ -11,6 +11,14 @@ public class PlayerKeyScript : MonoBehaviour {
 	public static bool deviceGrabbed = false;
 	GameObject deviceToPlace;
 
+	float targetAngle = 0f;
+	float degreesPerClick = 2f;
+	float secsPerClick = 0.3f;
+
+	private float curAngle = 0f;
+	private float startAngle=0f;
+	private float startTime=0f;
+
 	void Start () {
 		
 	}
@@ -39,6 +47,9 @@ public class PlayerKeyScript : MonoBehaviour {
 				gameObject.GetComponent<FirstPersonController> ().enabled = true;
 			}
 		}
+		if (Input.GetKeyDown (KeyCode.M)) {
+			GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().GoToAnotherRoom ("0", gameObject);
+		}
 
 		Ray rayb = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hitb;
@@ -54,6 +65,8 @@ public class PlayerKeyScript : MonoBehaviour {
 				if (distance <= 3 && Input.GetKeyDown (KeyCode.E) && deviceGrabbed == false) {
 					deviceToPlace = hitb.transform.gameObject;
 					deviceGrabbed = true;
+					curAngle = deviceToPlace.transform.rotation.eulerAngles.y;  // salvez rotatia initiala a obiectului atunci cand am dat E sa il ridic
+					targetAngle = deviceToPlace.transform.rotation.eulerAngles.y;		//la fel si aici deoarece trebuie modificata rotatia pentru fiecare obiect in parte
 				}
 			} else
 				showMessage = false;
@@ -66,14 +79,30 @@ public class PlayerKeyScript : MonoBehaviour {
 
 		if (deviceGrabbed == true) {
 			Vector3 newpos = Camera.main.transform.forward * 3;
-			
 			deviceToPlace.transform.position = transform.position + newpos;
 			/*Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			deviceToPlace.transform.position = ray.origin + ray.direction * grabDistance;*/
 			if (Input.GetKeyDown (KeyCode.F)) {
 				deviceGrabbed = false;
 				deviceToPlace.transform.tag = "device";
-				GameObject.Find("DeviceSpawnManager").GetComponent<LinkManager> ().GenerareLinii ();
+				GameObject.Find("DeviceSpawnManager").GetComponent<LinkManager> ().GenerateLines ();
+			}
+
+			// se verifica daca se da de scroll si se modifica rotatia
+			float clicks = Mathf.Round(Input.GetAxis("Mouse ScrollWheel") * 100);
+			if (clicks != 0) {
+				targetAngle += clicks * degreesPerClick;
+				startAngle = curAngle;
+				startTime = Time.time;
+			}
+
+			var t = (Time.time - startTime) / secsPerClick;
+			if (t <= 1) {
+				curAngle = Mathf.Lerp(startAngle, targetAngle, t);
+				// finally, do the actual rotation
+				Vector3 rot = deviceToPlace.transform.rotation.eulerAngles;
+				rot.y = curAngle;
+				deviceToPlace.transform.eulerAngles = rot;
 			}
 		}
 	}

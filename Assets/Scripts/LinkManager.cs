@@ -7,14 +7,14 @@ public class LinkManager : MonoBehaviour {
 	public int lineCount;
 	LineRenderer line;
 
-	public void GenerareLinii(){
+	public void GenerateLines(){
 		Init ();
 		foreach (GameObject gam in devices) {
 			string name1 = gam.GetComponent<DeviceInfo> ().devInfo.getId ();
 			foreach(DeviceConnection dc in gam.GetComponent<DeviceInfo>().devConn){
 				string name2 = dc.getConnectedNeighbour ();
 				if (name2 != "DEV_0" && name2 != "DEV_-1") {	//Desenez linii intre nume
-					DesenareLiniiIntreObiecte(name1,name2);
+					DrawLineBetween2Objects(name1,name2);
 				}
 			}
 		}
@@ -30,6 +30,7 @@ public class LinkManager : MonoBehaviour {
 
 	public void Init(){
 		lineCount = 0;
+		line.positionCount = lineCount;
 		line.startWidth = 0.05f; line.endWidth = 0.05f;
 		line.startColor = Color.blue;
 		line.endColor = Color.red;
@@ -45,18 +46,18 @@ public class LinkManager : MonoBehaviour {
 		return null;
 	}
 
-	public void DesenareLiniiIntreObiecte(string name1, string name2){
+	public void DrawLineBetween2Objects(string name1, string name2){
 		Debug.Log (name1 + "--->>>" + name2);
-		lineCount += 2;
-		line.positionCount = lineCount;
+
 		GameObject o1 = FindGameObjectById (name1);
 		GameObject o2 = FindGameObjectById (name2);
 		if (o1 != null && o2 != null) {	//verific daca exista obiectele in aceeasi camera
+			lineCount += 2;
+			line.positionCount = lineCount;
 			line.SetPosition (lineCount - 2, o1.transform.position);
 			line.SetPosition (lineCount - 1, o2.transform.position);
 		} else {	//unul din obiecte nu este aici resetez ce am modificat
-			lineCount -= 2;
-			line.positionCount = lineCount;
+			Debug.Log("Devs nu sunt in aceeasi camera");
 		}
 	}
 }

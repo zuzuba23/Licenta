@@ -19,12 +19,11 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 			angle = 0;
 		parent = GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().parent;
 		Vector3 center = new Vector3 (0, 0.5f, 0);
-		int i = 1;
 		foreach (Device d in deviceList) {
 			devicePrefab.GetComponentInChildren<TextMesh> ().text = d.getHostname ();
 			Vector3 position;
 			float a = count * angle;
-			if (d.getType() != "PC") {
+			if (d.getType() != "PC") {	//acest device nu este PC, este altceva si fac verificari
 				position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);position.y += 4;
 			} else {
 				position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);
@@ -33,13 +32,13 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 			GameObject deviceToInstantiate;
 			deviceToInstantiate = Instantiate(devicePrefab, position, rotation);
 			deviceToInstantiate.transform.parent = parent.transform;
-			deviceToInstantiate.GetComponent<DeviceInfo> ().devInfo = d;
-			deviceToInstantiate.GetComponent<DeviceInfo> ().devConn = d.neighbours;
-			devices.Add (deviceToInstantiate);
+			deviceToInstantiate.GetComponent<DeviceInfo> ().devInfo = d;	//asociez obiectului informatiile despre sine
+			deviceToInstantiate.GetComponent<DeviceInfo> ().devConn = d.neighbours;	//asociez obiectului informatiile despre conexiuni
+			devices.Add (deviceToInstantiate);	//adaug noul obiect in lista device-urilor din world.
 			count++;
 		}
-		GetComponent<LinkManager> ().devices = devices;
-		GetComponent<LinkManager> ().GenerareLinii ();
+		GetComponent<LinkManager> ().devices = devices;	//link manager primeste lista de device-uri din world si genreaza liniile dintre ele
+		GetComponent<LinkManager> ().GenerateLines ();
 	}
 
 	private Vector3 GeneratePosition(Vector3 center, float radius,float a)
