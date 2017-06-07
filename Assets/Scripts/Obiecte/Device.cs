@@ -67,4 +67,16 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 	public string getType(){
 		return this.type;
 	}
+
+	public string getIpAddress(){
+		return ipAddress;
+	}
+
+	public string getMacAddress(){
+		return macAddress;
+	}
+
+	public string getStatus(){
+		return "UP";
+	}
 }
