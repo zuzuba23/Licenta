@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DeviceSpawnManagerScript : MonoBehaviour {
 	public GameObject devicePrefab;
+	public GameObject switchPrefab;
 	public GameObject parent;
 	public List<GameObject> devices;
 
@@ -22,20 +23,30 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 		foreach (Device d in deviceList) {
 			devicePrefab.GetComponentInChildren<TextMesh> ().text = d.getHostname ();
 			Vector3 position;
+			GameObject deviceToInstantiate = null;
 			float a = count * angle;
 			if (d.getType() != "PC") {	//acest device nu este PC, este altceva si fac verificari
-				position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);position.y += 4;
-			} else {
+				if (d.getType () == "SWITCH") {	//acest device este switch. aplic modelul
+					position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);position.y += 4;
+					Quaternion rotation = Quaternion.Euler (new Vector3 (0, a + 180, 0));
+					deviceToInstantiate = Instantiate(switchPrefab, position, rotation);
+				} else {	//nu este nici switch...trebuie vazut ce este
+					position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);
+					Quaternion rotation = Quaternion.Euler (new Vector3 (0, a + 180, 0));
+					deviceToInstantiate = Instantiate(devicePrefab, position, rotation);
+				}
+			} else if(d.getType() == "PC"){
 				position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);
+				Quaternion rotation = Quaternion.Euler (new Vector3 (0, a + 180, 0));
+				deviceToInstantiate = Instantiate(devicePrefab, position, rotation);
 			}
-			Quaternion rotation = Quaternion.Euler (new Vector3 (0, a + 180, 0));
-			GameObject deviceToInstantiate;
-			deviceToInstantiate = Instantiate(devicePrefab, position, rotation);
-			deviceToInstantiate.transform.parent = parent.transform;
-			deviceToInstantiate.GetComponent<DeviceInfo> ().devInfo = d;	//asociez obiectului informatiile despre sine
-			deviceToInstantiate.GetComponent<DeviceInfo> ().devConn = d.neighbours;	//asociez obiectului informatiile despre conexiuni
-			devices.Add (deviceToInstantiate);	//adaug noul obiect in lista device-urilor din world.
-			count++;
+			if (deviceToInstantiate != null) {		//verific daca am device sa nu dea exceptie cu nullreference
+				deviceToInstantiate.transform.parent = parent.transform;
+				deviceToInstantiate.GetComponent<DeviceInfo> ().devInfo = d;	//asociez obiectului informatiile despre sine
+				deviceToInstantiate.GetComponent<DeviceInfo> ().devConn = d.neighbours;	//asociez obiectului informatiile despre conexiuni
+				devices.Add (deviceToInstantiate);	//adaug noul obiect in lista device-urilor din world.
+				count++;
+			}
 		}
 		GetComponent<LinkManager> ().devices = devices;	//link manager primeste lista de device-uri din world si genreaza liniile dintre ele
 		GetComponent<LinkManager> ().GenerateLines ();

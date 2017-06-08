@@ -22,6 +22,7 @@ public class LinkManager : MonoBehaviour {
 			string name1 = gam.GetComponent<DeviceInfo> ().devInfo.getId ();
 			foreach(DeviceConnection dc in gam.GetComponent<DeviceInfo>().devConn){
 				string name2 = dc.getConnectedNeighbour ();
+				Debug.Log (dc.ShowDetails ());
 				if (name2 != "DEV_0" && name2 != "DEV_-1") {	
 					AddGameObjectsToList(name1,name2);		//determin ce device-uri pot fi adaugate in lista de linii
 				}
@@ -90,6 +91,20 @@ public class LinkManager : MonoBehaviour {
 			gameObjectLineRenderers.Add (line);
 		}else {	//unul din obiecte nu este aici resetez ce am modificat
 			Debug.Log("Devs " + name1 + "-->> " + name2 + "nu sunt in aceeasi camera");
+			GameObject line = new GameObject ();
+			AddLineRendererComponent (line);
+			line.transform.position = new Vector3 (-13,7,15);
+			line.GetComponent<LineRenderer>().positionCount = 3;
+			if (o1 == null && o2 != null) {
+				line.GetComponent<LineRenderer>().SetPosition(0, line.transform.position);
+				line.GetComponent<LineRenderer>().SetPosition(1, new Vector3 (o2.transform.position.x, line.transform.position.y, o2.transform.position.z));
+				line.GetComponent<LineRenderer>().SetPosition(2, o2.transform.position);
+			} else if (o2 == null && o1 != null) {
+				line.GetComponent<LineRenderer>().SetPosition(0, o1.transform.position);
+				line.GetComponent<LineRenderer>().SetPosition(1, new Vector3 (line.transform.position.x, o1.transform.position.y, line.transform.position.z));
+				line.GetComponent<LineRenderer>().SetPosition(2, line.transform.position);
+			}
+			gameObjectLineRenderers.Add (line);
 		}
 	}
 }

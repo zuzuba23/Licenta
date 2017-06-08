@@ -102,10 +102,13 @@ public class PlayerKeyScript : MonoBehaviour {
 		}
 
 		if (deviceGrabbed == true) {
-			Vector3 newpos = Camera.main.transform.forward * 3;
-			deviceToPlace.transform.position = transform.position + newpos;
-			/*Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			deviceToPlace.transform.position = ray.origin + ray.direction * grabDistance;*/
+			if (deviceToPlace.GetComponent<DeviceInfo> ().devInfo.getType () == "PC") {
+				Vector3 newpos = Camera.main.transform.forward * 3;
+				deviceToPlace.transform.position = transform.position + newpos;
+			} else {	//la switch e diferita mutarea
+				Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+				deviceToPlace.transform.position = ray.origin + ray.direction * 2;
+			}
 			if (Input.GetKeyDown (KeyCode.F)) {
 				deviceGrabbed = false;
 				deviceToPlace.transform.tag = "device";
