@@ -51,6 +51,9 @@ public class PlayerKeyScript : MonoBehaviour {
 						deviceGrabbed = true;
 						curAngle = deviceToPlace.transform.rotation.eulerAngles.y;  // salvez rotatia initiala a obiectului atunci cand am dat E sa il ridic
 						targetAngle = deviceToPlace.transform.rotation.eulerAngles.y;		// la fel si aici deoarece trebuie modificata rotatia pentru fiecare obiect in parte
+
+						if (hit.transform.gameObject.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH")
+							GameObject.Find("DeviceSpawnManager").GetComponent<LinkManager> ().Init ();
 					}
 				}
 			}

@@ -20,17 +20,31 @@ public class LinkManager : MonoBehaviour {
 		Init ();
 		foreach (GameObject gam in devices) {
 			string name1 = gam.GetComponent<DeviceInfo> ().devInfo.getId ();
-			foreach(DeviceConnection dc in gam.GetComponent<DeviceInfo>().devConn){
-				string name2 = dc.getConnectedNeighbour ();
-				Debug.Log (dc.ShowDetails ());
-				if (name2 != "DEV_0" && name2 != "DEV_-1") {	
-					AddGameObjectsToList(name1,name2);		//determin ce device-uri pot fi adaugate in lista de linii
+			if (gam.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH") {
+				int interfaceCount = gam.GetComponent<DeviceInfo> ().devConn.Count;
+				gam.GetComponent<CircleGenerator> ().Spawn (interfaceCount);
+				List<GameObject> interfaces = gam.GetComponent<CircleGenerator> ().interfaces;
+				foreach (DeviceConnection dc in gam.GetComponent<DeviceInfo>().devConn) {
+					string name2 = dc.getConnectedNeighbour ();
+					Debug.Log (name1 + "--->>>" + name2);
+					if (name2 == "DEV_0" || name2 == "DEV_-1") {	// marchez interfata ca fiind inactiva si nu desenez nimic
+						interfaces[interfaceCount - 1].GetComponent<SphereScript>().SphereOff();
+					} else {		//caut cel de-al doilea device si fac legatura cu el
+						interfaces[interfaceCount - 1].GetComponent<SphereScript>().SphereOn();
+						DrawLineBetween2Objects (interfaces [interfaceCount - 1], name2);
+					}
+					interfaceCount--;
 				}
+			} else {  //nu e switch se face altceva
+
 			}
 		}
+		/*
 		foreach (item item in gameobjectsToDrawLineBetween) { //Desenez linii intre nume
 			DrawLineBetween2Objects (item.name1, item.name2);
 		}
+		*/
+
 	}
 
 	public void Update(){
@@ -64,8 +78,7 @@ public class LinkManager : MonoBehaviour {
 	}
 
 	public void AddGameObjectsToList(string name1, string name2){	//populez lista de gameObject-uri cu obiecte valide si unice
-		if (name1 == "DEV_1" || name1 == "DEV_2")
-			Debug.Log (name1 + "--->>>" + name2);
+		
 		bool itemExists = false;
 		foreach (item item in gameobjectsToDrawLineBetween) {
 			if ((item.name1 == name1 && item.name2 == name2) || (item.name1 == name2 && item.name2 == name1)) {
@@ -78,8 +91,8 @@ public class LinkManager : MonoBehaviour {
 		}
 	}
 
-	public void DrawLineBetween2Objects(string name1, string name2){		//generez cate un gameObject si ii atasez un LineRenderer dupa care trasez liniile
-		GameObject o1 = FindGameObjectById (name1);
+	public void DrawLineBetween2Objects(GameObject interf, string name2){		//generez cate un gameObject si ii atasez un LineRenderer dupa care trasez liniile
+		GameObject o1 = interf;
 		GameObject o2 = FindGameObjectById (name2);
 		if (o1 != null && o2 != null) {
 			GameObject line = new GameObject ();
@@ -90,7 +103,6 @@ public class LinkManager : MonoBehaviour {
 			line.GetComponent<LineRenderer>().SetPosition(2, o2.transform.position);
 			gameObjectLineRenderers.Add (line);
 		}else {	//unul din obiecte nu este aici resetez ce am modificat
-			Debug.Log("Devs " + name1 + "-->> " + name2 + "nu sunt in aceeasi camera");
 			GameObject line = new GameObject ();
 			AddLineRendererComponent (line);
 			line.transform.position = new Vector3 (-13,7,15);

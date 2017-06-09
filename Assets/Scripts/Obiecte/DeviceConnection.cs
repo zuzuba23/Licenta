@@ -17,7 +17,7 @@ public class DeviceConnection
 	private string locationName;
 
 	public string ShowDetails(){
-		return "asdasd " + "id=" + id + " devID=" + deviceId + " hostname=" + hostname + " neighbour=" + connectedNeighbor + " status=" + status + "\n";
+		return "" + "id=" + id + " devID=" + deviceId + " hostname=" + hostname + " neighbour=" + connectedNeighbor + " status=" + status + "\n";
 	}
 
 	public string getConnectedNeighbour(){
