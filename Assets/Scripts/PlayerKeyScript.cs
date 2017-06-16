@@ -11,7 +11,7 @@ public class PlayerKeyScript : MonoBehaviour {
 	public static bool showPanel = false;
 	public static bool deviceGrabbed = false;
 	GameObject deviceToPlace;
-	GameObject devicePanelInfo;
+	GameObject deviceInfoHolder;
 
 	float targetAngle = 0f;
 	float degreesPerClick = 2f;
@@ -22,7 +22,7 @@ public class PlayerKeyScript : MonoBehaviour {
 	private float startTime=0f;
 
 	void Start () {
-		devicePanelInfo = GameObject.Find ("Panel_DeviceInfo");
+		
 	}
 	
 	// Update is called once per frame
@@ -84,7 +84,7 @@ public class PlayerKeyScript : MonoBehaviour {
 				float distance = Vector3.Distance (transform.position, hitb.transform.position);
 				if (distance <= 3 && deviceGrabbed == false) {	// afisez detalii device
 					showPanel = true;
-					GameObject.Find ("Panel_DeviceInfo").GetComponent<PanelManagerDeviceInfoScript> ().ShowInfo (hitb.transform.gameObject);
+					deviceInfoHolder = hitb.transform.gameObject;
 				} else {	// opresc afisarea detaliilor
 					showPanel = false;
 				}
@@ -99,9 +99,20 @@ public class PlayerKeyScript : MonoBehaviour {
 			GameObject.Find("GUIText").GetComponent<Text>().text = "";
 		}
 		if (showPanel == true) {
-			devicePanelInfo.GetComponent<Canvas>().enabled = true;
+			if (deviceInfoHolder.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH") {	//daca e switch afisez pe GUI
+				deviceInfoHolder.GetComponent<DeviceInfoViewer> ().ShowSwitchInfo (deviceInfoHolder);
+				deviceInfoHolder.GetComponent<DeviceInfoViewer> ().textHolderSwitch.SetActive (true);
+			} else {	//afisez pe obiect
+				deviceInfoHolder.GetComponent<DeviceInfoViewer> ().ShowInfo (deviceInfoHolder);
+			}
 		} else {
-			devicePanelInfo.GetComponent<Canvas>().enabled = false;
+			if (deviceInfoHolder != null) {
+				if (deviceInfoHolder.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH") {
+					deviceInfoHolder.GetComponent<DeviceInfoViewer> ().textHolderSwitch.SetActive (false);
+				} else {
+					deviceInfoHolder.GetComponent<DeviceInfoViewer> ().HideInfo ();
+				}
+			}
 		}
 
 		if (deviceGrabbed == true) {

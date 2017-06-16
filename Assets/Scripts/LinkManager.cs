@@ -98,9 +98,15 @@ public class LinkManager : MonoBehaviour {
 			GameObject line = new GameObject ();
 			AddLineRendererComponent (line);
 			line.GetComponent<LineRenderer>().positionCount = 3;
-			line.GetComponent<LineRenderer>().SetPosition(0, o1.transform.position);
-			line.GetComponent<LineRenderer>().SetPosition(1, new Vector3 (o2.transform.position.x, o1.transform.position.y, o2.transform.position.z));
-			line.GetComponent<LineRenderer>().SetPosition(2, o2.transform.position);
+			if (o2.GetComponent<DeviceInfo> ().devInfo.getType () == "PC") {	// daca e pc linia va fi mai sus decat centrul obiectului
+				line.GetComponent<LineRenderer> ().SetPosition (0, o1.transform.position);
+				line.GetComponent<LineRenderer> ().SetPosition (1, new Vector3 (o2.transform.position.x, o1.transform.position.y, o2.transform.position.z));
+				line.GetComponent<LineRenderer> ().SetPosition (2, new Vector3 (o2.transform.position.x, o2.transform.position.y + 1, o2.transform.position.z));
+			} else {
+				line.GetComponent<LineRenderer> ().SetPosition (0, o1.transform.position);
+				line.GetComponent<LineRenderer> ().SetPosition (1, new Vector3 (o2.transform.position.x, o1.transform.position.y, o2.transform.position.z));
+				line.GetComponent<LineRenderer> ().SetPosition (2, o2.transform.position);
+			}
 			gameObjectLineRenderers.Add (line);
 		}else {	//unul din obiecte nu este aici resetez ce am modificat
 			GameObject line = new GameObject ();
