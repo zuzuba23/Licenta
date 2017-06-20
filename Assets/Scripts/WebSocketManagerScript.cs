@@ -51,7 +51,8 @@ public class WebSocketManagerScript : MonoBehaviour {
 	public IEnumerator SaveDevicePosition(string toSendMessage){
 		//Debug.Log (toSendMessage);
 		ws.SendString (toSendMessage);
-		Debug.Log("WS said:" + getWebsocketResponse(ws));
+		SaveResponse s = JsonReader.Deserialize<JsonObjectSavePositionStatus>(getWebsocketResponse(ws)).getSaveResponse()[0];
+		StartCoroutine(GameObject.Find ("FPSController").GetComponent<PlayerKeyScript> ().ShowSavePositionStatus (s));
 		yield return null;
 	}
 }

@@ -41,3 +41,16 @@ public class JsonObjectNeighbours{
 		return version;
 	}
 }
+
+public class JsonObjectSavePositionStatus{
+	private List<SaveResponse> response;
+	private string version;
+
+	public List<SaveResponse> getSaveResponse(){
+		return response;
+	}
+
+	public string getVersion(){
+		return version;
+	}
+}

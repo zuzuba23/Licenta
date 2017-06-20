@@ -10,19 +10,20 @@ public class PlayerKeyScript : MonoBehaviour {
 	public static bool showMessage = false;
 	public static bool showPanel = false;
 	public static bool deviceGrabbed = false;
+	public static bool showStatus = false;
 	GameObject deviceToPlace;
 	GameObject deviceInfoHolder;
+	string GUIMessage;
 
 	float targetAngle = 0f;
 	float degreesPerClick = 2f;
 	float secsPerClick = 0.3f;
-
 	private float curAngle = 0f;
 	private float startAngle=0f;
 	private float startTime=0f;
 
 	void Start () {
-		
+		GUIMessage = "Click to enter";
 	}
 	
 	// Update is called once per frame
@@ -94,8 +95,8 @@ public class PlayerKeyScript : MonoBehaviour {
 			}
 		}
 		if (showMessage == true) {
-			GameObject.Find("GUIText").GetComponent<Text>().text = "Click to Enter";
-		} else {
+			GameObject.Find ("GUIText").GetComponent<Text> ().text = GUIMessage;
+		} else if(showStatus == false){
 			GameObject.Find("GUIText").GetComponent<Text>().text = "";
 		}
 		if (showPanel == true) {
@@ -164,5 +165,18 @@ public class PlayerKeyScript : MonoBehaviour {
 		s += d.getSclX() + "," + d.getSclY() + "," + d.getSclZ();
 
 		return s;
+	}
+
+	public IEnumerator ShowSavePositionStatus(SaveResponse sr){
+		GUIMessage = sr.getMsg();
+		showMessage = true;
+		showStatus = true;
+		GameObject.Find ("GUIText").GetComponent<Text> ().fontSize = 60;
+		yield return new WaitForSeconds (2f);
+		GameObject.Find ("GUIText").GetComponent<Text> ().fontSize = 23;
+		showMessage = false;
+		showStatus = false;
+		GUIMessage = "Click to enter";
+		yield return null;
 	}
 }
