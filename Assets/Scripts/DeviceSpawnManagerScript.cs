@@ -23,21 +23,20 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 		foreach (Device d in deviceList) {
 			devicePrefab.GetComponentInChildren<TextMesh> ().text = d.getHostname ();
 			Vector3 position;
+			Quaternion rotation = d.getRotation ();
 			GameObject deviceToInstantiate = null;
 			float a = count * angle;
 			if (d.getType() != "PC") {	//acest device nu este PC, este altceva si fac verificari
 				if (d.getType () == "SWITCH") {	//acest device este switch. aplic modelul
-					position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);position.y += 4;
-					Quaternion rotation = Quaternion.Euler (new Vector3 (0, a + 180, 0));
+					position = d.getPosition ();//*/ GeneratePosition (center, 8f, a);position.y += 4;
 					deviceToInstantiate = Instantiate(switchPrefab, position, rotation);
 				} else {	//nu este nici switch...trebuie vazut ce este
-					position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);
-					Quaternion rotation = Quaternion.Euler (new Vector3 (0, a + 180, 0));
+					position = d.getPosition ();//*/ GeneratePosition (center, 8f, a);
+					//Quaternion rotation = Quaternion.Euler (d.getRotation());		//   parametru     new Vector3 (0, a + 180, 0)
 					deviceToInstantiate = Instantiate(devicePrefab, position, rotation);
 				}
 			} else if(d.getType() == "PC"){
-				position = /*d.getPosition ();*/ GeneratePosition (center, 8f, a);
-				Quaternion rotation = Quaternion.Euler (new Vector3 (0, a + 180, 0));
+				position = d.getPosition ();//*/ GeneratePosition (center, 8f, a);
 				deviceToInstantiate = Instantiate(devicePrefab, position, rotation);
 			}
 			if (deviceToInstantiate != null) {		//verific daca am device sa nu dea exceptie cu nullreference

@@ -26,7 +26,7 @@ public class LinkManager : MonoBehaviour {
 				List<GameObject> interfaces = gam.GetComponent<CircleGenerator> ().interfaces;
 				foreach (DeviceConnection dc in gam.GetComponent<DeviceInfo>().devConn) {
 					string name2 = dc.getConnectedNeighbour ();
-					Debug.Log (name1 + "--->>>" + name2);
+					//Debug.Log (name1 + "--->>>" + name2);
 					if (name2 == "DEV_0" || name2 == "DEV_-1") {	// marchez interfata ca fiind inactiva si nu desenez nimic
 						interfaces[interfaceCount - 1].GetComponent<SphereScript>().SphereOff();
 					} else {		//caut cel de-al doilea device si fac legatura cu el

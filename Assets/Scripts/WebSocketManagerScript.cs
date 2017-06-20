@@ -47,4 +47,11 @@ public class WebSocketManagerScript : MonoBehaviour {
 		GameObject.Find ("DeviceSpawnManager").GetComponent<DeviceSpawnManagerScript> ().SpawnDevices (deviceList);
 		yield return null;
 	}
+
+	public IEnumerator SaveDevicePosition(string toSendMessage){
+		//Debug.Log (toSendMessage);
+		ws.SendString (toSendMessage);
+		Debug.Log("WS said:" + getWebsocketResponse(ws));
+		yield return null;
+	}
 }

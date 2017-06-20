@@ -48,4 +48,8 @@ public class WorldSpawnManagerScript : MonoBehaviour {
 		//testing purpose lines
 		StartCoroutine(GameObject.Find("WebSocketManager").GetComponent<WebSocketManagerScript>().GetWorlds("net_worlds " + id));
 	}
+
+	public string getCurrentRoomId(){
+		return id;
+	}
 }

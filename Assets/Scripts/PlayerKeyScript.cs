@@ -123,10 +123,11 @@ public class PlayerKeyScript : MonoBehaviour {
 				Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 				deviceToPlace.transform.position = ray.origin + ray.direction * 2;
 			}
-			if (Input.GetKeyDown (KeyCode.F)) {
+			if (Input.GetKeyDown (KeyCode.F)) {		//dau drumul la obiect, ii actualizez pozitia in baza de date, generez din nou legaturile
 				deviceGrabbed = false;
 				deviceToPlace.transform.tag = "device";
 				GameObject.Find("DeviceSpawnManager").GetComponent<LinkManager> ().GenerateLines ();
+				StartCoroutine(GameObject.Find ("WebSocketManager").GetComponent<WebSocketManagerScript> ().SaveDevicePosition (SavePositionStringGenerate(deviceToPlace)));
 			}
 
 			// se verifica daca se da de scroll si se modifica rotatia
@@ -146,5 +147,22 @@ public class PlayerKeyScript : MonoBehaviour {
 				deviceToPlace.transform.eulerAngles = rot;
 			}
 		}
+	}
+
+	private string SavePositionStringGenerate(GameObject device){
+		Device d = device.GetComponent<DeviceInfo> ().devInfo;
+		d.setPosX (device.transform.position.x);
+		d.setPosY (device.transform.position.y);
+		d.setPosZ (device.transform.position.z);
+		d.setRotX (device.transform.rotation.eulerAngles.x);
+		d.setRotY (device.transform.rotation.eulerAngles.y);
+		d.setRotZ (device.transform.rotation.eulerAngles.z);
+		string s = "save_pos_dev ";
+		s += d.getId().Replace("DEV_","") + "," + GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().getCurrentRoomId () + ",";	//id dev si id world
+		s += device.transform.position.x + "," + device.transform.position.y + "," + device.transform.position.z + ",";		//pozitii
+		s += device.transform.rotation.eulerAngles.x + "," + device.transform.rotation.eulerAngles.y + "," + device.transform.rotation.eulerAngles.z + ",";		//rotatii
+		s += d.getSclX() + "," + d.getSclY() + "," + d.getSclZ();
+
+		return s;
 	}
 }

@@ -39,6 +39,18 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 		pos_z = (float)p;
 	}
 
+	public void setRotX(double p){
+		rot_x = (float)p;
+	}
+
+	public void setRotY(double p){
+		rot_y = (float)p;
+	}
+
+	public void setRotZ(double p){
+		rot_z = (float)p;
+	}
+
 	public double getPosX(){
 		return pos_x;
 	}
@@ -49,6 +61,30 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 
 	public double getPosZ(){
 		return pos_z;
+	}
+
+	public double getRotX(){
+		return rot_x;
+	}
+
+	public double getRotY(){
+		return rot_y;
+	}
+
+	public double getRotZ(){
+		return rot_z;
+	}
+
+	public double getSclX(){
+		return scl_x;
+	}
+
+	public double getSclY(){
+		return scl_y;
+	}
+
+	public double getSclZ(){
+		return scl_z;
 	}
 
 	public string getHostname(){
@@ -62,6 +98,11 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 	public Vector3 getPosition(){
 		Vector3 v = new Vector3 ((float)pos_x, (float)pos_y, (float)pos_z);
 		return v;
+	}
+
+	public Quaternion getRotation(){
+		Vector3 v = new Vector3((float)rot_x,(float)rot_y,(float)rot_z);
+		return Quaternion.Euler (v);
 	}
 
 	public string getType(){
