@@ -24,7 +24,7 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 	public List<DeviceConnection> neighbours;
 
 	public string ShowDetails(){
-		return "id=" + id + " hostname=" + hostname + " managementIpAddress=" + ipAddress + " mac=" + macAddress +" x:" + pos_x + " y:" + pos_y + " z:" + pos_z + "\n";
+		return "id=" + id + " hostname=" + hostname + " managementIpAddress=" + ipAddress + " mac=" + macAddress +" x:" + pos_x + " y:" + pos_y + " z:" + pos_z + "\nrot: x:" + rot_x + " y:" + rot_y + " z:" + rot_z + "\n";
 	}
 
 	public void setPosX(double p){
@@ -101,7 +101,7 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 	}
 
 	public Quaternion getRotation(){
-		Vector3 v = new Vector3((float)rot_x,(float)rot_y,(float)rot_z);
+		Vector3 v = new Vector3(0,(float)rot_y,0);
 		return Quaternion.Euler (v);
 	}
 

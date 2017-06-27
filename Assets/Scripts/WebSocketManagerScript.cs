@@ -43,6 +43,7 @@ public class WebSocketManagerScript : MonoBehaviour {
 		foreach (Device d in deviceList) {	// pentru fiecare device descoperit trebuie sa ii aflu vecinii
 			ws.SendString ("dev_intfs " + d.getId());
 			d.neighbours = JsonReader.Deserialize<JsonObjectNeighbours> (getWebsocketResponse (ws)).getNeighboursList ();
+			//Debug.Log (d.ShowDetails ());
 		}
 		GameObject.Find ("DeviceSpawnManager").GetComponent<DeviceSpawnManagerScript> ().SpawnDevices (deviceList);
 		yield return null;

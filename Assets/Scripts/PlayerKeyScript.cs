@@ -142,7 +142,7 @@ public class PlayerKeyScript : MonoBehaviour {
 			var t = (Time.time - startTime) / secsPerClick;
 			if (t <= 1) {
 				curAngle = Mathf.Lerp(startAngle, targetAngle, t);
-				// finally, do the actual rotation
+				// execut rotatia
 				Vector3 rot = deviceToPlace.transform.rotation.eulerAngles;
 				rot.y = curAngle;
 				deviceToPlace.transform.eulerAngles = rot;
@@ -150,14 +150,14 @@ public class PlayerKeyScript : MonoBehaviour {
 		}
 	}
 
-	private string SavePositionStringGenerate(GameObject device){
+	private string SavePositionStringGenerate(GameObject device){	//metoda ce formeaza stringul ce trebuie trimis pe ws
 		Device d = device.GetComponent<DeviceInfo> ().devInfo;
 		d.setPosX (device.transform.position.x);
 		d.setPosY (device.transform.position.y);
 		d.setPosZ (device.transform.position.z);
-		d.setRotX (device.transform.rotation.eulerAngles.x);
+		//d.setRotX (device.transform.rotation.eulerAngles.x);	//ignor
 		d.setRotY (device.transform.rotation.eulerAngles.y);
-		d.setRotZ (device.transform.rotation.eulerAngles.z);
+		//d.setRotZ (device.transform.rotation.eulerAngles.z);	//ignor
 		string s = "save_pos_dev ";
 		s += d.getId().Replace("DEV_","") + "," + GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().getCurrentRoomId () + ",";	//id dev si id world
 		s += device.transform.position.x + "," + device.transform.position.y + "," + device.transform.position.z + ",";		//pozitii
@@ -167,14 +167,14 @@ public class PlayerKeyScript : MonoBehaviour {
 		return s;
 	}
 
-	public IEnumerator ShowSavePositionStatus(SaveResponse sr){
+	public IEnumerator ShowSavePositionStatus(SaveResponse sr){	//async se modifica status message in status save msg primit pe websocket
 		GUIMessage = sr.getMsg();
-		showMessage = true;
-		showStatus = true;
+		showMessage = true;	
+		showStatus = true;	//sa nu imi scrie null peste
 		GameObject.Find ("GUIText").GetComponent<Text> ().fontSize = 60;
 		yield return new WaitForSeconds (2f);
 		GameObject.Find ("GUIText").GetComponent<Text> ().fontSize = 23;
-		showMessage = false;
+		showMessage = false;	//revert dupa 2 secunde
 		showStatus = false;
 		GUIMessage = "Click to enter";
 		yield return null;
