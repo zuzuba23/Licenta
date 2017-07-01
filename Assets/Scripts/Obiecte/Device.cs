@@ -21,6 +21,7 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 	private double scl_z;
 	private string locationName;
 
+	private string status = "down";
 	public List<DeviceConnection> neighbours;
 
 	public string ShowDetails(){
@@ -49,6 +50,10 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 
 	public void setRotZ(double p){
 		rot_z = (float)p;
+	}
+
+	public void setStatus(string st){
+		status = st;
 	}
 
 	public double getPosX(){
@@ -118,6 +123,6 @@ public class Device		//adaugat lista de interfete pentru fiecare device
 	}
 
 	public string getStatus(){
-		return "UP";
+		return status;
 	}
 }

@@ -53,7 +53,7 @@ public class PlayerKeyScript : MonoBehaviour {
 						curAngle = deviceToPlace.transform.rotation.eulerAngles.y;  // salvez rotatia initiala a obiectului atunci cand am dat E sa il ridic
 						targetAngle = deviceToPlace.transform.rotation.eulerAngles.y;		// la fel si aici deoarece trebuie modificata rotatia pentru fiecare obiect in parte
 
-						if (hit.transform.gameObject.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH")
+						if (hit.transform.gameObject.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH" || hit.transform.gameObject.GetComponent<DeviceInfo> ().devInfo.getType () == "ROUTER")
 							GameObject.Find("DeviceSpawnManager").GetComponent<LinkManager> ().Init ();
 					}
 				}
@@ -71,6 +71,12 @@ public class PlayerKeyScript : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.M)) {	// detectez tasta M
 			GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().GoToAnotherRoom ("0", gameObject);
 		}
+		if (Input.GetKeyDown(KeyCode.Q)) {	//detectez Q pentru a detecta dispozitivele conectate
+			if (isPaused == false && deviceGrabbed == false) {	//execut numai daca nu a pus pauza si nu are niciun obiect in mana
+				
+			}
+		}
+
 			
 		Ray rayb = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hitb;
@@ -100,16 +106,16 @@ public class PlayerKeyScript : MonoBehaviour {
 			GameObject.Find("GUIText").GetComponent<Text>().text = "";
 		}
 		if (showPanel == true) {
-			if (deviceInfoHolder.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH") {	//daca e switch afisez pe GUI
+			if (deviceInfoHolder.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH" || deviceInfoHolder.GetComponent<DeviceInfo> ().devInfo.getType () == "ROUTER") {	//daca e switch afisez pe GUI
 				deviceInfoHolder.GetComponent<DeviceInfoViewer> ().ShowSwitchInfo (deviceInfoHolder);
-				deviceInfoHolder.GetComponent<DeviceInfoViewer> ().textHolderSwitch.SetActive (true);
+				deviceInfoHolder.GetComponent<DeviceInfoViewer> ().panelSwitch.SetActive (true);
 			} else {	//afisez pe obiect
 				deviceInfoHolder.GetComponent<DeviceInfoViewer> ().ShowInfo (deviceInfoHolder);
 			}
 		} else {
 			if (deviceInfoHolder != null) {
-				if (deviceInfoHolder.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH") {
-					deviceInfoHolder.GetComponent<DeviceInfoViewer> ().textHolderSwitch.SetActive (false);
+				if (deviceInfoHolder.GetComponent<DeviceInfo> ().devInfo.getType () == "SWITCH" || deviceInfoHolder.GetComponent<DeviceInfo> ().devInfo.getType () == "ROUTER") {
+					deviceInfoHolder.GetComponent<DeviceInfoViewer> ().panelSwitch.SetActive (false);
 				} else {
 					deviceInfoHolder.GetComponent<DeviceInfoViewer> ().HideInfo ();
 				}
@@ -127,6 +133,9 @@ public class PlayerKeyScript : MonoBehaviour {
 			if (Input.GetKeyDown (KeyCode.F)) {		//dau drumul la obiect, ii actualizez pozitia in baza de date, generez din nou legaturile
 				deviceGrabbed = false;
 				deviceToPlace.transform.tag = "device";
+				if (deviceToPlace.GetComponent<DeviceInfo> ().devInfo.getType () == "PC") {
+					deviceToPlace.transform.position = new Vector3 (deviceToPlace.transform.position.x, 0, deviceToPlace.transform.position.z);
+				}
 				GameObject.Find("DeviceSpawnManager").GetComponent<LinkManager> ().GenerateLines ();
 				StartCoroutine(GameObject.Find ("WebSocketManager").GetComponent<WebSocketManagerScript> ().SaveDevicePosition (SavePositionStringGenerate(deviceToPlace)));
 			}

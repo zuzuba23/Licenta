@@ -54,3 +54,16 @@ public class JsonObjectSavePositionStatus{
 		return version;
 	}
 }
+
+public class JsonObjectDeviceStatus{
+	private List<DeviceStatus> response;
+	private string version;
+
+	public List<DeviceStatus> getDeviceStatusResponse(){
+		return response;
+	}
+
+	public string getVersion(){
+		return version;
+	}
+}

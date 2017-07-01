@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class DeviceSpawnManagerScript : MonoBehaviour {
 	public GameObject devicePrefab;
 	public GameObject switchPrefab;
+	public GameObject routerPregab;
 	public GameObject parent;
 	public List<GameObject> devices;
 
@@ -26,10 +27,13 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 			Quaternion rotation = d.getRotation ();
 			GameObject deviceToInstantiate = null;
 			float a = count * angle;
-			if (d.getType() != "PC") {	//acest device nu este PC, este altceva si fac verificari
+			if (d.getType () != "PC") {	//acest device nu este PC, este altceva si fac verificari
 				if (d.getType () == "SWITCH") {	//acest device este switch. aplic modelul
 					position = d.getPosition ();//*/ GeneratePosition (center, 8f, a);position.y += 4;
-					deviceToInstantiate = Instantiate(switchPrefab, position, rotation);
+					deviceToInstantiate = Instantiate (switchPrefab, position, rotation);
+				} else if(d.getType() == "ROUTER"){ 
+					position = d.getPosition ();//*/ GeneratePosition (center, 8f, a);position.y += 4;
+					deviceToInstantiate = Instantiate (routerPregab, position, rotation);
 				} else {	//nu este nici switch...trebuie vazut ce este
 					position = d.getPosition ();//*/ GeneratePosition (center, 8f, a);
 					//Quaternion rotation = Quaternion.Euler (d.getRotation());		//   parametru     new Vector3 (0, a + 180, 0)
@@ -49,6 +53,7 @@ public class DeviceSpawnManagerScript : MonoBehaviour {
 		}
 		GetComponent<LinkManager> ().devices = devices;	//link manager primeste lista de device-uri din world si genreaza liniile dintre ele
 		GetComponent<LinkManager> ().GenerateLines ();
+		GameObject.Find ("StatusCheckManager").GetComponent<StatusCheckManagerScript> ().WorldDevicesInit (devices);
 	}
 
 	private Vector3 GeneratePosition(Vector3 center, float radius,float a)

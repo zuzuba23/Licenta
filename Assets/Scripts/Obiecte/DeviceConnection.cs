@@ -23,4 +23,8 @@ public class DeviceConnection
 	public string getConnectedNeighbour(){
 		return connectedNeighbor;
 	}
+
+	public string getStatus(){
+		return status;
+	}
 }

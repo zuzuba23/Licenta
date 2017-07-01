@@ -56,4 +56,11 @@ public class WebSocketManagerScript : MonoBehaviour {
 		StartCoroutine(GameObject.Find ("FPSController").GetComponent<PlayerKeyScript> ().ShowSavePositionStatus (s));
 		yield return null;
 	}
+
+	public IEnumerator GetDevicesStatus(string toSendMessage){
+		ws.SendString (toSendMessage);
+		List<DeviceStatus> devStatusList = JsonReader.Deserialize<JsonObjectDeviceStatus> (getWebsocketResponse (ws)).getDeviceStatusResponse ();
+		GameObject.Find ("StatusCheckManager").GetComponent<StatusCheckManagerScript> ().GotStatusFromServer (devStatusList);
+		yield return null;
+	}
 }

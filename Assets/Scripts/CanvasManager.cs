@@ -4,4 +4,6 @@ using UnityEngine;
 
 public class CanvasManager : MonoBehaviour {
 	public GameObject panelInfoSwitch;
+	public GameObject textHolder, interfaceTextPrefab;
+	public GameObject panelInterfaces;
 }

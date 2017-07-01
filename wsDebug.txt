@@ -11143,3 +11143,2126 @@
                             Connection: Upgrade
                             Sec-WebSocket-Accept: sfkfEePKwFa+EdtOz0gEhNkG8jk=
                             Sec-WebSocket-Protocol: command
+6/28/2017 11:51:53 AM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+6/28/2017 11:51:54 AM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                            GET /3d/viznet/ws/w/2 HTTP/1.1
+                            User-Agent: websocket-sharp/1.0
+                            Host: timf.upg-ploiesti.ro
+                            Upgrade: websocket
+                            Connection: Upgrade
+                            Sec-WebSocket-Key: A8I3/YEzxHJz2k7No7itBA==
+                            Sec-WebSocket-Protocol: command
+                            Sec-WebSocket-Version: 13
+6/28/2017 11:51:54 AM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                            HTTP/1.1 101 Switching Protocols
+                            Upgrade: WebSocket
+                            Connection: Upgrade
+                            Sec-WebSocket-Accept: zAVO6ljOt6hjJaibzMRoFbPhRkE=
+                            Sec-WebSocket-Protocol: command
+6/28/2017 11:52:02 AM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+6/28/2017 11:52:02 AM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                            GET /3d/viznet/ws/w/2 HTTP/1.1
+                            User-Agent: websocket-sharp/1.0
+                            Host: timf.upg-ploiesti.ro
+                            Upgrade: websocket
+                            Connection: Upgrade
+                            Sec-WebSocket-Key: P191kYeuFrNXJ17DrxQaaw==
+                            Sec-WebSocket-Protocol: command
+                            Sec-WebSocket-Version: 13
+6/28/2017 11:52:02 AM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                            HTTP/1.1 101 Switching Protocols
+                            Upgrade: WebSocket
+                            Connection: Upgrade
+                            Sec-WebSocket-Accept: vzxkM6Ow3bb/Z63a4OyTW+CfYKQ=
+                            Sec-WebSocket-Protocol: command
+6/29/2017 2:59:57 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+6/29/2017 2:59:58 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                           GET /3d/viznet/ws/w/2 HTTP/1.1
+                           User-Agent: websocket-sharp/1.0
+                           Host: timf.upg-ploiesti.ro
+                           Upgrade: websocket
+                           Connection: Upgrade
+                           Sec-WebSocket-Key: Qe+cQnUDkr36+781mQbhag==
+                           Sec-WebSocket-Protocol: command
+                           Sec-WebSocket-Version: 13
+6/29/2017 2:59:58 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                           HTTP/1.1 101 Switching Protocols
+                           Upgrade: WebSocket
+                           Connection: Upgrade
+                           Sec-WebSocket-Accept: RhyDLa48f/X5ZYjYOw+kdSehMdM=
+                           Sec-WebSocket-Protocol: command
+6/29/2017 3:04:06 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+6/29/2017 3:04:06 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                           GET /3d/viznet/ws/w/2 HTTP/1.1
+                           User-Agent: websocket-sharp/1.0
+                           Host: timf.upg-ploiesti.ro
+                           Upgrade: websocket
+                           Connection: Upgrade
+                           Sec-WebSocket-Key: HAIACJq13Helbdncms2v+w==
+                           Sec-WebSocket-Protocol: command
+                           Sec-WebSocket-Version: 13
+6/29/2017 3:04:07 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                           HTTP/1.1 101 Switching Protocols
+                           Upgrade: WebSocket
+                           Connection: Upgrade
+                           Sec-WebSocket-Accept: vyy9eP9f442k9h3WyszFv2nQlUY=
+                           Sec-WebSocket-Protocol: command
+7/1/2017 12:53:09 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 12:53:10 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                           GET /3d/viznet/ws/w/2 HTTP/1.1
+                           User-Agent: websocket-sharp/1.0
+                           Host: timf.upg-ploiesti.ro
+                           Upgrade: websocket
+                           Connection: Upgrade
+                           Sec-WebSocket-Key: saKJxmwxcswG3way10JsFQ==
+                           Sec-WebSocket-Protocol: command
+                           Sec-WebSocket-Version: 13
+7/1/2017 12:53:10 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                           HTTP/1.1 101 Switching Protocols
+                           Upgrade: WebSocket
+                           Connection: Upgrade
+                           Sec-WebSocket-Accept: tF4AZfTZzgU9g4ZFrP3+Oe7brmU=
+                           Sec-WebSocket-Protocol: command
+7/1/2017 12:56:46 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 12:56:47 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                           GET /3d/viznet/ws/w/2 HTTP/1.1
+                           User-Agent: websocket-sharp/1.0
+                           Host: timf.upg-ploiesti.ro
+                           Upgrade: websocket
+                           Connection: Upgrade
+                           Sec-WebSocket-Key: Z4RqtFHpliw5u0vUAVx8Dw==
+                           Sec-WebSocket-Protocol: command
+                           Sec-WebSocket-Version: 13
+7/1/2017 12:56:47 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                           HTTP/1.1 101 Switching Protocols
+                           Upgrade: WebSocket
+                           Connection: Upgrade
+                           Sec-WebSocket-Accept: cCEzkKDU+h16/xhHnjxJMbkYa2o=
+                           Sec-WebSocket-Protocol: command
+7/1/2017 1:03:43 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:03:43 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: PIim+SSs5kgn+0Z3zv7ZSw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:03:43 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: cZfoLiINjJjkhx+mxAqBy+LybME=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:06:20 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:06:20 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: fFXKQuGfo2ya66iYlBgs6g==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:06:20 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: ZV5bKSSMFqzn2u1FI/Lqvc9Mz54=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:06:36 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:06:36 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: Gz1cpMnI0rw7Y9hIQMKBMA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:06:36 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: AOcptK/agJeJZHJXfXd5VkDY878=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:17:12 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:17:12 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: cetwVToZXVqa6MkYZl4mrw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:17:12 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: EjuCUMFEVqSLBxQJvUhjsS4q17U=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:22:12 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:22:12 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: UD1SKUQDT15e6+Qlyhbv1Q==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:22:12 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: k5aMQ1M/RtwkToYZM3wpmXh+rOI=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:22:44 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:22:44 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 4q71hYULM40MDJ+DEmQPLQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:22:44 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: ijNRzd8SuXmo9F7MgvQoiLvYhmo=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:30:38 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:30:38 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: jZHKKgcyYM0WYuavUAWnhg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:30:38 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: Cmsa96W8xcErj4VxwAvazRWzXoM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:31:30 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:31:30 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: k47ZA59QlGiDlgo1CuUiig==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:31:30 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 5jDGfgld2W+H+LAnsb+IS23lnvY=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:35:55 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:35:55 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: nMmsig/SMmOteoSaHrxoqg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:35:56 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: Xf0fZT6BdB3KeNeS1Q5A6IvVVBA=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:36:10 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:36:10 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: IICWxE9Lm3sDhBDB9ChrkA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:36:10 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: JyQL7BDOI+Ps+a8x75evdRd8dGs=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:39:40 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:39:40 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: +ASZExCG/tPNpOEyqxEEPQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:39:40 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: YJZECTHkjzJS0i6XuYvNjlkmGVM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:41:35 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:41:35 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 9S5apazhPPh9/UUAkl2m2g==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:41:35 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: jx/wT3wJv/AVw87NyNe4eUqaVxI=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:42:20 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:42:20 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: n+iefjcqeeN5eCUiXCjEBw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:42:20 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: OZjSO1hboqdO9dV8WqxvvfrDpCQ=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:43:54 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:43:54 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 2zmZ6SFiTdPtqOVehE4mhg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:43:54 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: UevQRvWn9vGACYe4T7K3ZtkbNGo=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:47:32 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:47:32 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: KAJxIqhJoPysntHL87tE2w==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:47:32 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: wGq052HUHUv6eKIlth1vhMq98H4=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:48:24 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:48:24 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: XlUqEo2G5f2ixhZhj0+X5g==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:48:24 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: UHzw2QnysAKVrK/CzCWpXpNFDSY=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:49:11 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:49:12 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: tFwCx1btYcjORPt7Gysp9w==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:49:12 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: pDHNnCTxtTL5F5HWYEgeeufOahY=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:51:21 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:51:22 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: efqrcTOsy216JRnRSUr6Iw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:51:22 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 2Vab6PoIdkEYySzJ0M44z9ECKzU=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:52:08 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:52:08 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: hHaNyHas+RbkAw/e6rd/yg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:52:08 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: O2FPO/NNjSgEYCW+GOofjDk+Lz0=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:52:50 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:52:50 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: ag7sqqAg9jyE0fs/VghqZQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:52:50 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: YTpilVjEqNBwiwvRzNH0Py66stU=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:54:37 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:54:37 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 3SoXartE3x6K7minsK3F9w==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:54:38 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: J9t0oyMUQgnKNFunBfCaFBMQAlo=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:54:56 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:54:57 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 3iDEzWhM8DkSyXSJdd6CsQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:54:57 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: GVUYiqzVUqU23mR96V1Qdmy3q64=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:55:20 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:55:20 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: oH3cLf5rYbPwmaWv6jAEbA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:55:20 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: xP/Kd0/X4qpoCnmNfyLdIExYEHI=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:55:55 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:56:00 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 9a71ZrioMQlvDkjAFlUHfA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:56:00 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: BMN4WPitFeRucUvGbvA+BLS6RZQ=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:57:48 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:57:48 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: IUy0aFvv85TzNp9CcmUq1A==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:57:48 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: ujzWZ1xoRjMSoQ97dxm/H2WtxO0=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 1:59:16 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 1:59:16 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: sCbokq/JCwP6JUD55hlFOA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 1:59:16 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: mwv+RKwCe26z/ADpW+3V1POc9Uw=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:01:13 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:01:13 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: v81QmX9coJTcjtndKL1f1A==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:01:13 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 4NOnQF5nNrkSpUh6gpkpnt9D8QE=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:01:25 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:01:26 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: Ih/tBbbB0FGcN9eEXPMiAg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:01:26 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: JOrBUrb72zq55K2m4wVmZzQqAOc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:01:41 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:01:41 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 2ONmfHpTlXWz6ACzU2/ypg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:01:41 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 505XX4rmYVqLPqCVsD6xs+7oazg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:02:28 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:02:29 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 0oHvPjsvW47U8d2PxasXmQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:02:29 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: E2tE7DRTNkbse2qFCmlskzzzE0M=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:02:57 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:02:57 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 2dkJC4Wx2n/+MaUXIFjHyw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:02:57 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: rri73RHfLVBUXVm67bFP5PEpCqQ=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:15:35 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:15:37 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: LcqPqp8/9/mFZDSAEjxOlQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:15:37 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 1mvMQJWBAXU3mreeWm83mM3MrT4=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:17:22 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:17:22 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: prNwxsKbYLNlAHPaMoC+Jw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:17:22 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: EVXu3bGnA4QrAOgAQaB82nTcwk8=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:19:37 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:19:37 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: kqbW1XQYK0NYXYtdpFaebw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:19:37 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: yYJWboO2AC3XyESU6jLpXnmmqhg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:20:28 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:20:28 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: jk5vyvM77yh+HOX8PtOZTA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:20:28 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: ozdeqOmOMgn22qJtxF/1+I+D+0A=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:23:49 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:23:49 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: uXAAxVGtPbMmlbSTB0Einw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:23:49 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: yXe4xRukqaAErTigYiJ3VPq48xQ=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:25:01 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:25:01 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: zeDw6+64XvA3ay8JdAVsjw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:25:01 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: +zsFNTHg4EACR6tqlfmbdDSzh1A=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:25:29 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:25:30 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: hJKvKUU1X0P1qITYcrIVhA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:25:30 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: mZAKUOG+47t86ClEoODOdpXmc8g=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:27:34 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:27:34 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: KhT2Do6g0Z4U4wrMedYrTw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:27:34 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: ht/1jQZSH/zfAMdteJ9PevpOTAg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:30:07 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:30:07 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: fuzvNi7gS3ZSHaCTAaXCHA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:30:07 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: wCXCWK1vK1VCBn85VYAIBY1/+TM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:31:30 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:31:31 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: vHV1PciUIMbkhxMJUkCrnw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:31:31 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: f5XYdGoQNQ54hK+eQkQLDgwOvaM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:32:37 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:32:37 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: JOz/2h1sM/5OnDuroDcHKw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:32:37 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: SLkkl1aphKsXJcc5OLmmKp+Gxjg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:33:10 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:33:10 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 1DeLyp+MaBXz/I4PjrHHLg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:33:10 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 7wrQKrZI7s/ILmI1q54QaSY95YI=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:34:41 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:34:41 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: nBb10uOP6tqOFG2ePxrFQg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:34:41 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: v87DpkYgvXcUYpo14TEmWwMU40o=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:34:47 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:34:47 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: vkGrsJTkSUtIrxjuVdQT7A==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:34:47 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 5PLaGVmjlDKGmHCerHvQbzRoXW8=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:36:31 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:36:31 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: mpMrkpZXXOeLL0La3tIExA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:36:31 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: PVgz/uhh+znqDeMviYc5eTArDEs=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 2:38:45 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 2:38:46 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 3zUi4/2P7l43U9xxfhymbw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 2:38:46 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: boOWEm94Xim1un62uOIHhBnxAiw=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 4:54:49 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 4:54:50 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: w1pAXi9RZA/mFHRQuMolPQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 4:54:50 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: RHre3CbViP9CI6GPIx6eM//GDeQ=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 4:56:27 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 4:56:27 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: YqCkIv6M5EfdmCClFNNXNw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 4:56:27 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: xM4PVE9zXiJr9OMf1YL4J+gJC2A=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 4:58:11 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 4:58:11 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: OBBOS9GX2bMf47MUpudHGw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 4:58:11 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: Qds4PVWXvfxfpmuMiPYo+etrOVg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 4:58:23 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 4:58:24 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: YA26Gjc2AKq0ATmM1uwO5A==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 4:58:24 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: bR8ft6ssU2JbFfOtRBPX6VV1s6E=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 4:59:06 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 4:59:06 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: MvQRT3XHz5TPxGUn0H38kQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 4:59:06 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: qj63NP6J4twb38TUNJj8+lMM5ag=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:00:01 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:00:02 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: wyqBLBAlD0+wg1CSa/qyow==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:00:02 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 8S9j0hyVFKAntqJ23UC+DFg8OgA=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:05:43 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:05:44 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: dC7A/GluuJAubnV0QQpZiA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:05:44 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: kxkcf44ajWHoH8B7v9FLBMdN39I=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:06:52 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:06:53 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: M1rZAwwIaokkXmNvd9MAwA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:06:53 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: zGGjm85pL8vH8deGrg24HvHJack=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:07:17 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:07:17 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: L3ZIVqWCMVkravJkBWJAFA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:07:17 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: B1YWzoYbQZ40eb0Cjf8sSXISpBk=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:08:10 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:08:11 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: DNG+THrplsQvf4PuJdhPDQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:08:11 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: LMo3gFP+wb5Pac1WYsg+SbLKUeI=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:09:47 PM|Fatal|<>c__DisplayClass17.<startReceiving>b__16:0|WebSocketSharp.WebSocketException: The header of a frame cannot be read from the stream.
+                            at WebSocketSharp.WebSocketFrame.processHeader (System.Byte[] header) [0x00000] in <filename unknown>:0 
+                            at WebSocketSharp.WebSocketFrame+<>c__DisplayClassa.<readHeaderAsync>b__9 (System.Byte[] bytes) [0x00000] in <filename unknown>:0 
+                            at WebSocketSharp.Ext+<>c__DisplayClass9.<ReadBytesAsync>b__8 (IAsyncResult ar) [0x00000] in <filename unknown>:0 
+7/1/2017 5:09:47 PM|Trace|WebSocket.close:0|Begin closing the connection.
+7/1/2017 5:09:47 PM|Debug|WebSocket.closeHandshake:0|Was clean?: False
+                            sent: False
+                            received: False
+7/1/2017 5:09:47 PM|Trace|WebSocket.close:0|End closing the connection.
+7/1/2017 5:10:39 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:10:39 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: D7fsnXsWUk2TPvtJ+UYhWQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:10:39 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 503 Service Unavailable
+                          Date: Sat, 01 Jul 2017 14:10:41 GMT
+                          Server: Apache/2.4.10 (Unix) OpenSSL/1.0.1h SVN/1.7.16
+                          Content-Length: 299
+                          Connection: close
+                          Content-Type: text/html; charset=iso-8859-1
+                          
+                          <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+                          <html><head>
+                          <title>503 Service Unavailable</title>
+                          </head><body>
+                          <h1>Service Unavailable</h1>
+                          <p>The server is temporarily unable to service your
+                          request due to maintenance downtime or capacity
+                          problems. Please try again later.</p>
+                          </body></html>
+7/1/2017 5:10:39 PM|Fatal|WebSocket.doHandshake:0|Not a WebSocket handshake response.
+7/1/2017 5:10:39 PM|Trace|WebSocket.close:0|Begin closing the connection.
+7/1/2017 5:10:39 PM|Debug|WebSocket.closeHandshake:0|Was clean?: False
+                            sent: False
+                            received: False
+7/1/2017 5:10:39 PM|Trace|WebSocket.close:0|End closing the connection.
+7/1/2017 5:10:41 PM|Error|WebSocket.Send:0|This operation isn't available in: closed
+7/1/2017 5:11:39 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:11:39 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: I5oEraZoUqnn4/QuY5jt7Q==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:11:39 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: dpmoLEgvJIG3SCaRycfGblWKLZs=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:11:55 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:11:55 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: iDt92Kap8N6u7aMsfvGTkQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:11:55 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: eYQ4scRDF2QEBXeS1y9E5qM9NBo=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:14:58 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:14:59 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: MrnlryCIttfYCMG0rI6pDg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:14:59 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: Y0Af9hGNm174eucX/K7pNV9Xh2U=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:17:19 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:17:19 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: +8oY2nFGl14ed0+3RNC5bA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:17:19 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 254adCPiGuIqcmZ2a4xNWKF6mMc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:26:02 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:26:02 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: j4Ml7hPlLSdWBRf2oeTpZQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:26:02 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: IUZeKqFn+T2uuLY4O2qXCS68IME=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:26:37 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:26:37 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: eYJtPm9n52CEJ6htJJRIfQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:26:37 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: Prsia4+Ajn+Fd2XQIEeUGAKpoNs=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:27:27 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:27:27 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: qFXLArYypFkfXS2MP430HQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:27:27 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: dtmZFpLK4862Ru7eZrrcHVOELvA=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:28:24 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:28:24 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: qg+XSGjGZRmpzaPZEP8UTg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:28:24 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 3chyunYLkDWQZxs0RZMu3QzOghc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:29:37 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:29:38 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: Evot9O2NOhk8ZhdnGCwepA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:29:38 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: VZbsxSgolobCp+oSvcXYLvW4KPw=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:30:45 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:30:46 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: jFnaiTcv5PLtLTVyS2BoCg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:30:46 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: yy4umoTdIZ6ZoDdWGobm6z2uBT4=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:31:04 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:31:04 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: mSXWFq7HPk8n9h52FuHOwg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:31:05 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: c5e68ECjtG/hvqWyM4zChKgRqxw=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:31:45 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:31:45 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: Psc0Gb2jzndpHlXYLatfxA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:31:45 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: BQkJ+o/PcP6SuenfgsBuY9/kkeA=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:32:10 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:32:10 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: MFhs+zb9a++8EViW3rH9Wg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:32:10 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 90jQjg6KLRFWI5nTowwzRXed8xA=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:43:24 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:43:24 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: U6uCqL+yB4GkvQA+NNqgiw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:43:24 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: Rx/1WIO6cfpNqOXJDXMk354MwBg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:45:10 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:45:11 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: MyT2qo4BWuu8JVu0WltEIw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:45:11 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: K3Hl7L+whGmIPkYRuvZNudLtCOc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:46:05 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:46:05 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: O+iJIc58knSKcJOPJltThA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:46:05 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: VxapimigZpGyCRbZWfGiOdbDIjg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:46:46 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:46:47 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: YvR6qXcdfdK0EzqNGclsPQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:46:47 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: amZygUecnpFLCS78/rNQpsOor2Y=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:47:44 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:47:44 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: AT5nngMBHThx2sVgLqvv7g==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:47:44 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: /vEwVIjX1pXhTt/ZPL+8tfOCwKc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:48:36 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:48:36 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: krQAuicPMTGSX3IPUV4Whw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:48:36 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: /hNa7wQJf8lsoYgA/oFpBZwDtBQ=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:49:40 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:49:40 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 4QjfxDWX9nVsgVwG+iV8Rg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:49:40 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: ed1ccAD7SvQj5ckSKGr0Khz5Xgk=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:50:50 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:50:50 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: +Z0FztdHXqUu/8kcgafaEw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:50:50 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 9BPrUWlYWWdxERjuMTrKDwQ2CrI=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:54:55 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:54:55 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: EfuUOZqcJzfFdAMLYtIuZQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:54:55 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: /tGIvVCwTqEdZxuQ7wJDMqOvJcY=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:56:10 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:56:11 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: ZkTNiHVXAnA4UcrKpnbPZg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:56:11 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: IvHhkBOq6d3DZmQpC83GP96GLPg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:57:00 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:57:00 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: lOtg1Svk/FInRu+JesUZAA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:57:00 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: sShdqKyOqhnYiKAJCbrPJ34nIts=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 5:58:08 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 5:58:08 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: e/T9AFjR+nmGI7UGU5wOHw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 5:58:08 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: wO9qzSomXx5ghTY0r4IUdYmng9Q=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:03:59 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:03:59 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: ZNDqgIrh2t5EeWUbCJDjoA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:03:59 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: TqtwqQaZAmN3c30x2vR6CBBVFNw=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:05:21 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:05:22 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: DEi2ZTm6OWqFSf2R5usEyA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:05:22 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: NGh22fLL/G6xn1uomuX4sJRhGeU=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:06:06 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:06:06 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: YLx/qdsH5eSS1fKTdP+owA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:06:06 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: XSLpSK5+v9bOkLcWQvqLsD7W2J8=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:07:02 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:07:02 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: G+dm8i3k/osFLTJ3xXsw9Q==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:07:02 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: FNjAsRMH46P/spxj8ToVnqCeMXc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:08:06 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:08:07 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: ZcoUKaiz3SMbHrwegIm1ow==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:08:07 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: NSm6uvz4l81v7j6Jwc7xst5m1aI=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:10:43 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:10:43 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 9KMxe2s72gdn2ajdDbYKDQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:10:43 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: ZEhw0ZCj0iS4ebDuBWeaRVFNjPE=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:10:58 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:10:58 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: a0Teni/HrAWbCcE81sA0Ww==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:10:58 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 1oQMIw4yLmnc3kLD+HXP01GS7gE=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:11:27 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:11:28 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: HyxiYYQ1c+6BrW+dcBNerA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:11:28 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: sSgNlNeA7f6eRcpq7YZC3tXFRn4=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:11:33 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:11:33 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: X0GxO4HW6hMCe13xOcNFLw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:11:33 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: mIV4kPuV3wrI4xEVunPX2WubPlM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:12:02 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:12:02 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 7rr8TSraWKc3dcNonCizwg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:12:02 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: F43IWB3e/ZpyQ8+76Q1FvCCO6LA=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:12:08 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:12:08 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: YX5wCEK7nse8EkdilQI7Hg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:12:08 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: vJs92NzPlXPDalsEXargME+thxs=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:12:17 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:12:17 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: AwicdKaUCnq5nhaubSy9Jw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:12:17 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: BKpJqfT1Ank7xbWy3rSc/WPtQlM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:20:16 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:20:17 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: AHzJvug1N+xJcjp5YgFlYQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:20:17 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: fxcQSD0JF1O6Gx/G1h8UBvgMfTM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:21:31 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:21:31 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: MuGIJjulUvIxwsYc/nPABw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:21:31 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 00v1UfFZxODq/mvg6/x/LIcqkYc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:24:51 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:24:51 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: gbxliHePGAFYh+r2S5/3tw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:24:51 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: GV1O5BuJA8ATsatJyqSRyC3VarA=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:27:15 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:27:15 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: xHQAjO1qH+pX8emPXadU6g==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:27:15 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 2l+R+qfPnXB3PN/3XjOC3tKeTD4=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:29:14 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:29:15 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: FHC0kC1rEJL2jm/dJ6CUlw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:29:15 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: As7AOk0yMO/0aCiwUy8TZHg3Kw0=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:29:52 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:29:52 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: zrYDmdhdiXQih1K6i8vaMA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:29:52 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: H0fTISayuqxtQ96bnT8wjNs48oc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:30:05 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:30:05 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: wWj/ZQv3qC8R/AWaEVG1bA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:30:05 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: hx8Uy5zIStP0y2b6XjeoGOArAJ8=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:32:21 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:32:21 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: u3rAFqin4vswndmRhnrq5g==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:32:21 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: YYOTbVNKWGj1YoKnVdGH7JosKn0=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:32:34 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:32:34 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: gn3WT05ZGUjnb3eMVnSW8Q==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:32:34 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 5H05HfCEfWh9MwbLuIRnWrm0fSM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:33:09 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:33:10 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: yMwERJAl4plWk/mTgOnLRw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:33:10 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: /GX9lzH7Uv6e1AKKX/T3Z+aAw38=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:34:07 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:34:08 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: oEP8MPz65iDCN0fc4aYUwQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:34:08 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: p7+vuIRbehoJOcHGHBVo7OuJDdo=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:34:53 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:34:53 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: JG9eGUsAmU3xJ/Za+Q+c0A==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:34:53 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 6Wf4J2bcMVlNDUg3guzP84WnvkY=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:37:27 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:37:27 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: FHeyI9icTlbGHLsJEIyj4g==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:37:27 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 0MQ5SlzTdTk0aaIMy+csQBTUndM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:38:13 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:38:13 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: Ez8BYtXavf/WnWPyytQnSg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:38:13 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: Zr4+ioCR083wHluEcbDJ3WV0VVo=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:47:37 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:47:37 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: lVeCbYPHqsVzqA6GB7NZMQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:47:37 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: EyGkXql//0xL2+naoje37TnCHMM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:49:20 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:49:21 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: HE5WohDsvW1U3+CfNvTovw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:49:21 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 8dCCLnRdnfwMRy7AaLuCn+v6HxQ=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:53:23 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:53:25 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: cXnE0WMT7Mp6nstBsYkpAw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:53:25 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 1ya3dDk1uJIrVWCeJfrDkQ/CAMw=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:54:52 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:54:52 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: gwx78C0DmKs/qEhCqDcCfA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:54:52 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: 1V9+mWbdc/g3xWlzOx7nvR/GFis=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:55:45 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:55:45 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: 25+VVBlDi3ElITsLZOygvw==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:55:45 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: bc6/P/sy1xrWaOwQ1KYF36JZjRk=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:56:50 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:56:51 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: et+Gj4yr1VWELv9TphMWhQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:56:51 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: NLxXLW/HKcJIX2ka2Eo0DvRGH+w=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:58:07 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:58:07 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: nsxv9FmxXpXVjR1i2R7uAQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:58:07 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: clH0s2/5hoNrxV35vGuzNGt8tj4=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:58:39 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:58:39 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: sCpGx4gA1I8kdxMlLnB7xA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:58:39 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: zOh0TmvAZpqWvrirWbosJ30TbKg=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 6:59:57 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 6:59:57 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: Y3fKOvipM56LUmuHtSTVNg==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 6:59:57 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: rohR72gTuzySQFuHC9D4iZnJQeU=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 7:00:21 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 7:00:21 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: dSrgHr5x4sfOjBs8v5vGgA==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 7:00:21 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: NrENFvpEcTdY+PQEDX67ovLH6Vw=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 7:00:48 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 7:00:49 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: wb1GNRVmUSAXN5KvdmhiAQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 7:00:49 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: CvsE8cncIMEtwOKnYuxb7zBlO9U=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 7:01:19 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 7:01:19 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: y1icP1bs1xGVkkx5x+rOYQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 7:01:19 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: vW3YwNQRv2P0uER4lUjsbB6ofvM=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 7:01:37 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 7:01:37 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: S3Hy5zXHiE8E2Ms5F8ssGQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 7:01:37 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: VJ2wXtC51SdUp5tKgmOaP+O39Nc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 7:07:14 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 7:07:14 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: tO8fWGn7sOEEEbcap1KDsQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 7:07:14 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: RujXUHyigzJx7KGLyTfm0pbrqTc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 7:09:45 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 7:09:45 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: KwlC3xGwHobK7xmvMhEV0A==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 7:09:45 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: NbjkJm4TIzpZ71mUitmg4VFFrsc=
+                          Sec-WebSocket-Protocol: command
+7/1/2017 7:10:42 PM|Warn |Logger.set_File:0|The current path to the log file has been changed to ./wsDebug.txt.
+7/1/2017 7:10:43 PM|Debug|WebSocket.sendHttpRequest:0|A request to the server:
+                          GET /3d/viznet/ws/w/2 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: timf.upg-ploiesti.ro
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: JRY+bqV+DrTC19W1aSvJAQ==
+                          Sec-WebSocket-Protocol: command
+                          Sec-WebSocket-Version: 13
+7/1/2017 7:10:43 PM|Debug|WebSocket.sendHttpRequest:0|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Upgrade: WebSocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Accept: EkphtalW8/N7tLu8rju8uaMJBs8=
+                          Sec-WebSocket-Protocol: command
