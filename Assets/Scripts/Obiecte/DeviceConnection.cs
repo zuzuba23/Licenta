@@ -11,9 +11,10 @@ public class DeviceConnection
 	private string type;
 	private string serialNo;
 	private string status;
-	private int lineCardCount;
-	private int ifIndex;
+	private string lineCardCount;
+	private string ifIndex;
 	private string connectedNeighbor;
+	private string connectedNeighborHostname;
 	private string locationName;
 
 	public string ShowDetails(){
@@ -26,5 +27,9 @@ public class DeviceConnection
 
 	public string getStatus(){
 		return status;
+	}
+
+	public string getConnectedNeighbourHostname(){
+		return connectedNeighborHostname;
 	}
 }

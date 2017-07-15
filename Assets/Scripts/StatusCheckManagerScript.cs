@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class StatusCheckManagerScript : MonoBehaviour {
 
@@ -25,7 +26,7 @@ public class StatusCheckManagerScript : MonoBehaviour {
 			}
 			if (IPs.Length != 0) {	//inseamna ca a gasit dispozitive si se incearca detectarea statusului
 				IPs = IPs.Substring (0, IPs.Length - 1);
-				//Debug.Log (IPs);
+				Debug.Log (IPs);
 									//trimit string catre WS si astept raspuns
 				StartCoroutine(GameObject.Find("WebSocketManager").GetComponent<WebSocketManagerScript>().GetDevicesStatus("devs_stat " + IPs));
 			}

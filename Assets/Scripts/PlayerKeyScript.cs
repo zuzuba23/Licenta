@@ -71,6 +71,9 @@ public class PlayerKeyScript : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.M)) {	// detectez tasta M
 			GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().GoToAnotherRoom ("0", gameObject);
 		}
+		if(Input.GetKeyDown(KeyCode.O)){	//QUIT
+			Application.Quit();
+		}
 		if (Input.GetKeyDown(KeyCode.Q)) {	//detectez Q pentru a detecta dispozitivele conectate
 			if (isPaused == false && deviceGrabbed == false) {	//execut numai daca nu a pus pauza si nu are niciun obiect in mana
 				

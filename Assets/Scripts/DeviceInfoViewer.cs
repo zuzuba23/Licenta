@@ -16,7 +16,11 @@ public class DeviceInfoViewer : MonoBehaviour {
 		t.text += "IP:" + d.getIpAddress () + "\n";
 		t.text += "MAC:" + d.getMacAddress () + "\n";
 		t.text += "Hostname:" + d.getHostname () + "\n";
-		t.text += "Status:" + d.getStatus ();
+		if (d.getStatus () == "down") {	//schimb culoarea la status
+			t.text += "<color=#ff0000ff>Status:" + d.getStatus () + "</color>";
+		} else {
+			t.text += "<color=#00ff00ff>Status:" + d.getStatus () + "</color>";
+		}
 	}
 
 	public void HideInfo(){
@@ -45,8 +49,12 @@ public class DeviceInfoViewer : MonoBehaviour {
 		t.text += "IP:" + d.getIpAddress () + "\n";
 		t.text += "MAC:" + d.getMacAddress () + "\n";
 		t.text += "Hostname:" + d.getHostname () + "\n";
-		t.text += "Status:" + d.getStatus ();
-
+		if (d.getStatus () == "down") {	//schimb culoarea la status
+			t.text += "<color=#ff0000ff>Status:" + d.getStatus () + "</color>";
+		} else {
+			t.text += "<color=#00ff00ff>Status:" + d.getStatus () + "</color>";
+		}
+		t.text += "\n";
 		foreach (Transform child in panelIntefaces.transform)
 		{
 			Destroy (child.gameObject);
@@ -54,18 +62,19 @@ public class DeviceInfoViewer : MonoBehaviour {
 		int count = 0;
 		t = interfaceTextPrefab.GetComponent<Text> ();
 		foreach (DeviceConnection dc in gObj.GetComponent<DeviceInfo>().devConn) {
-			t.text = "";
 			count++;
-			string devName;
+			t.text = "";
+			string devName = count + ".";
 			if (GameObject.Find("DeviceSpawnManager").GetComponent<LinkManager>().FindGameObjectById(dc.getConnectedNeighbour ()) != null) {
 				t.text += "<color=#00ff00ff>";
-				devName = GameObject.Find ("DeviceSpawnManager").GetComponent<LinkManager> ().FindGameObjectById (dc.getConnectedNeighbour ()).GetComponent<DeviceInfo> ().devInfo.getHostname ();
-			} else if(dc.getConnectedNeighbour() != "DEV_0"){
+				devName += GameObject.Find ("DeviceSpawnManager").GetComponent<LinkManager> ().FindGameObjectById (dc.getConnectedNeighbour ()).GetComponent<DeviceInfo> ().devInfo.getHostname ();
+			} else if(dc.getConnectedNeighbour() != "DEV_0" && dc.getConnectedNeighbour() != "DEV_-1"){
 				t.text += "<color=#00ff00ff>";
-				devName = dc.getConnectedNeighbour() + "(OUT)";
+				devName += dc.getConnectedNeighbourHostname() + " (OUT)";
+
 			} else {
 				t.text += "<color=#ff0000ff>";
-				devName = "NoDev";
+				devName += "NoDev";
 			}
 			t.text += devName + "</color>";
 			interfaceTextPrefab.GetComponent<Text> ().text = t.text;

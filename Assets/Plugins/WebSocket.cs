@@ -108,7 +108,7 @@ public class WebSocket
 
 	public IEnumerator Connect()
 	{
-		m_Socket = new WebSocketSharp.WebSocket(mUrl.ToString(),"command");
+		m_Socket = new WebSocketSharp.WebSocket(mUrl.ToString(),"test-protocol");
 		m_Socket.Log.Level = WebSocketSharp.LogLevel.Trace;
 		m_Socket.Log.File = "./wsDebug.txt";
 
@@ -142,6 +142,10 @@ public class WebSocket
 		get {
 			return m_Error;
 		}
+	}
+
+	public bool isConnected(){
+		return m_IsConnected;
 	}
 #endif 
 }

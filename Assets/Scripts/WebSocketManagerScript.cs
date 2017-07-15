@@ -3,29 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using WebSocketSharp;
 using JsonFx.Json;
+using UnityEngine.UI;
 
 public class WebSocketManagerScript : MonoBehaviour {
 
 	public WebSocket ws;
 	public List<World> worldsList;
 	public List<Device> deviceList;
+	public GameObject wsStatusText;
 
 	IEnumerator Start(){	//se creeaza conexiunea la WS si primesc informatiile initiale
-		ws = new WebSocket (new System.Uri("wss://timf.upg-ploiesti.ro:443/3d/viznet/ws/w/2"));
+		ws = new WebSocket (new System.Uri("ws://localhost:8080"));
 		yield return StartCoroutine(ws.Connect ());
-		StartCoroutine ("GetWorlds", "net_worlds 0");
+		yield return new WaitForSeconds(1);
+		GetWorlds("net_worlds 0");
+		
 	}
-	// Use this for initialization
-	public IEnumerator GetWorlds (string toSendMessage) {		//functie ce trimite un string pe WS pentru a primi info despre worlds
+
+	IEnumerator WSReConnect(){
+		yield return StartCoroutine(ws.Connect ());
+	}
+
+
+	public void GetWorlds (string toSendMessage) {		//functie ce trimite un string pe WS pentru a primi info despre worlds
 		ws.SendString (toSendMessage);
+		Debug.Log("trimeis " + toSendMessage);
 		worldsList = JsonReader.Deserialize<JsonObjectWorlds> (getWebsocketResponse (ws)).getWorldsList ();
 		GameObject.Find ("WorldSpawnManager").GetComponent<WorldSpawnManagerScript> ().SpawnWorlds (worldsList);
-		yield return null;
 	}
 		
 	// Update is called once per frame
 	void Update () {
-		
+		if (ws.isConnected () == false) {
+			wsStatusText.GetComponent<Text> ().text = "<color=#ff0000ff>WebSocket Disconnected</color>";
+		} else {
+			wsStatusText.GetComponent<Text> ().text = "<color=#00ff00ff>WebSocket Connected</color>";
+		}
 	}
 		
 	string getWebsocketResponse(WebSocket ws){	//primesc un string de la WS
@@ -62,5 +75,11 @@ public class WebSocketManagerScript : MonoBehaviour {
 		List<DeviceStatus> devStatusList = JsonReader.Deserialize<JsonObjectDeviceStatus> (getWebsocketResponse (ws)).getDeviceStatusResponse ();
 		GameObject.Find ("StatusCheckManager").GetComponent<StatusCheckManagerScript> ().GotStatusFromServer (devStatusList);
 		yield return null;
+	}
+
+	public Device GetDeviceById(string toSendMessage){
+		ws.SendString (toSendMessage);
+		Device d = JsonReader.Deserialize<JsonObjectDevs> (getWebsocketResponse (ws)).getDeviceList ()[0];
+		return d;
 	}
 }

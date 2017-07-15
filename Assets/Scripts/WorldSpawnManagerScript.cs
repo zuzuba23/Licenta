@@ -46,7 +46,7 @@ public class WorldSpawnManagerScript : MonoBehaviour {
 		player.transform.position = position;
 		this.id = id;
 		//testing purpose lines
-		StartCoroutine(GameObject.Find("WebSocketManager").GetComponent<WebSocketManagerScript>().GetWorlds("net_worlds " + id));
+		GameObject.Find("WebSocketManager").GetComponent<WebSocketManagerScript>().GetWorlds("net_worlds " + id);
 	}
 
 	public string getCurrentRoomId(){
